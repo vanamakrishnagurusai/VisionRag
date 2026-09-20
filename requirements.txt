@@ -1,0 +1,9 @@
+opencv-python
+numpy
+pillow
+pandas
+tqdm
+python-dotenv
+ultralytics
+sentence-transformers
+faiss-cpu
