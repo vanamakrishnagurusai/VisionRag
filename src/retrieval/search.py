@@ -77,12 +77,11 @@ class ImageSearcher:
                 {
                     "rank": len(results) + 1,
                     "score": float(score),
-                    "filename": item[
-                        "filename"
-                    ],
-                    "filepath": item[
-                        "filepath"
-                    ],
+                    "filename": item["filename"],
+                    "filepath": item["filepath"],
+                    "image_url": (
+                        f"/images/{item['filename']}"
+                    ),
                     "caption": item.get(
                         "caption",
                         ""

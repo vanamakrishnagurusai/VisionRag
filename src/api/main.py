@@ -1,53 +1,181 @@
-"""FastAPI application entrypoint for Vision RAG."""
+from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
-from typing import List, Optional
-import io
-from PIL import Image
+from typing import List
+from src.retrieval.search import ImageSearcher
+from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(
-    title="Vision RAG API",
-    description="Multimodal Retrieval-Augmented Generation API",
-    version="0.1.0"
+# ============================================================
+# Project paths
+# ============================================================
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+RAW_DIR = (
+    PROJECT_ROOT
+    / "data"
+    / "raw"
 )
 
 
-class TextSearchRequest(BaseModel):
-    query: str
-    top_k: Optional[int] = 5
+# ============================================================
+# FastAPI application
+# ============================================================
+
+app = FastAPI(
+    title="VisionRAG API",
+    description=(
+        "Multimodal image semantic search "
+        "using YOLO, BLIP, embeddings and FAISS."
+    ),
+    version="1.0.0"
+)
 
 
-class SearchResultItem(BaseModel):
+# ============================================================
+# Load search engine
+# ============================================================
+
+searcher = ImageSearcher()
+
+
+# ============================================================
+# Request schema
+# ============================================================
+class SearchResult(BaseModel):
+
+    rank: int
+
     score: float
-    metadata: dict
 
+    filename: str
+
+    filepath: str
+
+    image_url: str
+
+    caption: str
+
+    multimodal_context: str
+
+    objects: list
 
 class SearchResponse(BaseModel):
-    results: List[SearchResultItem]
 
+    query: str
+
+    count: int
+
+    results: List[SearchResult]
+    
+class SearchRequest(BaseModel):
+
+    query: str
+
+    top_k: int = 5
+
+
+# ============================================================
+# Health endpoint
+# ============================================================
 
 @app.get("/health")
 def health_check():
-    """Health check endpoint."""
-    return {"status": "ok", "service": "vision-rag"}
+
+    return {
+        "status": "healthy",
+        "service": "VisionRAG API"
+    }
 
 
-@app.post("/search/text", response_model=SearchResponse)
-def search_text(payload: TextSearchRequest):
-    """Query index with text."""
-    # Placeholder implementation
-    return SearchResponse(results=[])
+# ============================================================
+# Search endpoint
+# ============================================================
+
+@app.post(
+    "/search",
+    response_model=SearchResponse
+)
+def search_images(
+    request: SearchRequest
+):
+
+    query = request.query.strip()
+
+    if not query:
+
+        raise HTTPException(
+            status_code=400,
+            detail="Query cannot be empty."
+        )
+
+    if request.top_k <= 0:
+
+        raise HTTPException(
+            status_code=400,
+            detail="top_k must be greater than 0."
+        )
+
+    results = searcher.search(
+        query,
+        top_k=request.top_k
+    )
+
+    return {
+        "query": query,
+        "count": len(results),
+        "results": results
+    }
 
 
-@app.post("/search/image", response_model=SearchResponse)
-async def search_image(file: UploadFile = File(...), top_k: int = 5):
-    """Query index with an image file."""
-    try:
-        contents = await file.read()
-        _image = Image.open(io.BytesIO(contents)).convert("RGB")
-    except Exception as exc:
-        raise HTTPException(status_code=400, detail=f"Invalid image file: {str(exc)}")
-    
-    # Placeholder implementation
-    return SearchResponse(results=[])
+# ============================================================
+# Image endpoint
+# ============================================================
+
+@app.get("/images/{filename}")
+def get_image(
+    filename: str
+):
+
+    image_path = RAW_DIR / filename
+
+    if not image_path.exists():
+
+        raise HTTPException(
+            status_code=404,
+            detail="Image not found."
+        )
+
+    return FileResponse(
+        image_path
+    )
+@app.get("/stats")
+def get_stats():
+
+    return {
+        "indexed_images": len(
+            searcher.mapping
+        ),
+        "embedding_dimension": (
+            searcher.store.dimension
+        ),
+        "faiss_vectors": (
+            searcher.store.index.ntotal
+        )
+    }
+
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
