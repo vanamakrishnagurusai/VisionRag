@@ -7,3 +7,6 @@ python-dotenv
 ultralytics
 sentence-transformers
 faiss-cpu
+transformers
+torch 
+torchvision

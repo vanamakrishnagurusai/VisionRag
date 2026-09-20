@@ -21,7 +21,7 @@ INDEX_DIR = (
 
 INPUT_FILE = (
     METADATA_DIR
-    / "visual_context.json"
+    / "multimodal_context.json"
 )
 
 INDEX_FILE = (
@@ -63,7 +63,7 @@ def build_index():
     # ----------------------------------------
 
     contexts = [
-        item["visual_context"]
+        item["multimodal_context"]
         for item in image_data
     ]
 
@@ -118,7 +118,7 @@ def build_index():
                 "image_id": item["image_id"],
                 "filename": item["filename"],
                 "filepath": item["filepath"],
-                "visual_context": item["visual_context"]
+                "multimodal_context": item["multimodal_context"]
             }
         )
 

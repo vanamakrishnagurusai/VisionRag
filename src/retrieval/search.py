@@ -78,9 +78,9 @@ class ImageSearcher:
                     "score": float(score),
                     "filename": item["filename"],
                     "filepath": item["filepath"],
-                    "visual_context": item[
-                        "visual_context"
-                    ]
+                    "multimodal_context": item[
+                        "multimodal_context"
+                    ]   
                 }
             )
 
@@ -134,7 +134,7 @@ def main():
 
             print(
                 f"Context: "
-                f"{result['visual_context']}"
+                f"{result["multimodal_context"]}"
             )
 
         print()

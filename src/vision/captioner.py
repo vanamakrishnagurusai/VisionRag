@@ -1,31 +1,45 @@
-"""Image captioning module to generate natural language descriptions."""
-
-from typing import List, Union
 from PIL import Image
+from transformers import BlipProcessor, BlipForConditionalGeneration
 
 
 class ImageCaptioner:
-    """Generates natural language captions for images."""
 
-    def __init__(self, model_name: str = "Salesforce/blip-image-captioning-base"):
-        self.model_name = model_name
-        self.model = None
-        self.processor = None
+    def __init__(
+        self,
+        model_name="Salesforce/blip-image-captioning-base"
+    ):
 
-    def load_model(self):
-        """Lazy load the captioning model and processor."""
-        if self.model is None:
-            # Placeholder for model loading logic
-            pass
+        print(
+            f"Loading captioning model: {model_name}"
+        )
 
-    def caption(self, image: Union[Image.Image, List[Image.Image]]) -> Union[str, List[str]]:
-        """
-        Generate captions for a single image or batch of images.
+        self.processor = BlipProcessor.from_pretrained(
+            model_name
+        )
 
-        :param image: Single PIL Image or list of PIL Images.
-        :return: Generated caption string or list of caption strings.
-        """
-        self.load_model()
-        if isinstance(image, list):
-            return ["Image description placeholder" for _ in image]
-        return "Image description placeholder"
+        self.model = BlipForConditionalGeneration.from_pretrained(
+            model_name
+        )
+
+    def generate_caption(self, image_path):
+
+        image = Image.open(
+            image_path
+        ).convert("RGB")
+
+        inputs = self.processor(
+            images=image,
+            return_tensors="pt"
+        )
+
+        output = self.model.generate(
+            **inputs,
+            max_new_tokens=50
+        )
+
+        caption = self.processor.decode(
+            output[0],
+            skip_special_tokens=True
+        )
+
+        return caption
