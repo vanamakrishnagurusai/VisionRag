@@ -1,8 +1,14 @@
+import json
 from pathlib import Path
 
 from src.embeddings.embedder import TextEmbedder
 from src.retrieval.faiss_store import FAISSStore
+from src.retrieval.query_expander import expand_query
 
+
+# --------------------------------------------------
+# Project paths
+# --------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -30,15 +36,25 @@ class ImageSearcher:
 
         print("Loading image search system...")
 
+        # ------------------------------------------
+        # Embedding model
+        # ------------------------------------------
+
         self.embedder = TextEmbedder(
             model_name=model_name
         )
+
+        # ------------------------------------------
+        # FAISS index
+        # ------------------------------------------
 
         self.store = FAISSStore.load(
             FAISS_INDEX_PATH
         )
 
-        import json
+        # ------------------------------------------
+        # Image mapping
+        # ------------------------------------------
 
         with open(
             MAPPING_PATH,
@@ -52,42 +68,18 @@ class ImageSearcher:
             f"Loaded {len(self.mapping)} indexed images."
         )
 
-    # --------------------------------------------------
-    # Search
-    # --------------------------------------------------
+    # ==================================================
+    # Single query search
+    # ==================================================
 
-    def search(
+    def _search_single_query(
         self,
         query,
-        top_k=5,
-        min_score=0.20,
-        object_filter=None
+        retrieval_k
     ):
-
-        if not query or not query.strip():
-            return []
-
-        query = query.strip()
-
-        # ----------------------------------------------
-        # Create query embedding
-        # ----------------------------------------------
 
         query_embedding = self.embedder.encode(
             [query]
-        )
-
-        # ----------------------------------------------
-        # Retrieve more results than requested
-        # ----------------------------------------------
-        #
-        # This is important because some results may
-        # later be removed by score/object filtering.
-        #
-
-        retrieval_k = min(
-            max(top_k * 3, 20),
-            len(self.mapping)
         )
 
         scores, indices = self.store.search(
@@ -97,41 +89,164 @@ class ImageSearcher:
 
         results = []
 
-        # ----------------------------------------------
-        # Process FAISS results
-        # ----------------------------------------------
-
-        for rank, (score, index) in enumerate(
-            zip(scores[0], indices[0]),
-            start=1
+        for score, index in zip(
+            scores[0],
+            indices[0]
         ):
 
             # Invalid FAISS index
             if index < 0:
                 continue
 
+            # Mapping safety check
             if index >= len(self.mapping):
                 continue
 
-            score = float(score)
+            results.append(
+                {
+                    "index": int(index),
+                    "score": float(score)
+                }
+            )
 
-            item = self.mapping[index]
+        return results
 
-            # ------------------------------------------
+    # ==================================================
+    # Main search
+    # ==================================================
+
+    def search(
+        self,
+        query,
+        top_k=5,
+        min_score=0.20,
+        object_filter=None
+    ):
+
+        # ------------------------------------------
+        # Validate query
+        # ------------------------------------------
+
+        if not query or not query.strip():
+            return []
+
+        query = query.strip()
+
+        # ------------------------------------------
+        # Retrieve more candidates than needed
+        # ------------------------------------------
+
+        retrieval_k = min(
+            max(top_k * 3, 20),
+            len(self.mapping)
+        )
+
+        # ------------------------------------------
+        # Query expansion
+        # ------------------------------------------
+
+        expanded_queries = expand_query(
+            query
+        )
+
+        print(
+            f"Expanded queries: {expanded_queries}"
+        )
+
+        # ------------------------------------------
+        # Search every expanded query
+        # ------------------------------------------
+
+        candidate_scores = {}
+
+        for expanded_query in expanded_queries:
+
+            results = self._search_single_query(
+                expanded_query,
+                retrieval_k
+            )
+
+            for result in results:
+
+                index = result["index"]
+                score = result["score"]
+
+                if index not in candidate_scores:
+                    candidate_scores[index] = []
+
+                # IMPORTANT:
+                # Append outside the if statement.
+                candidate_scores[index].append(
+                    score
+                )
+
+        # ------------------------------------------
+        # Score fusion
+        # ------------------------------------------
+
+        fused_results = []
+
+        for index, scores in candidate_scores.items():
+
+            # Average score across query variations
+            average_score = (
+                sum(scores) / len(scores)
+            )
+
+            # Small consistency bonus
+            consistency_bonus = (
+                0.02 * (len(scores) - 1)
+            )
+
+            final_score = (
+                average_score
+                + consistency_bonus
+            )
+
+            fused_results.append(
+                {
+                    "index": index,
+                    "score": final_score
+                }
+            )
+
+        # ------------------------------------------
+        # Sort by score
+        # ------------------------------------------
+
+        fused_results.sort(
+            key=lambda x: x["score"],
+            reverse=True
+        )
+
+        # ------------------------------------------
+        # Build final results
+        # ------------------------------------------
+
+        results = []
+
+        for candidate in fused_results:
+
+            index = candidate["index"]
+            score = candidate["score"]
+
+            # --------------------------------------
             # Similarity filtering
-            # ------------------------------------------
+            # --------------------------------------
 
             if score < min_score:
                 continue
 
-            # ------------------------------------------
+            item = self.mapping[index]
+
+            # --------------------------------------
             # Object filtering
-            # ------------------------------------------
+            # --------------------------------------
 
             if object_filter:
 
                 object_filter_lower = (
-                    object_filter.lower()
+                    object_filter.strip().lower()
                 )
 
                 objects = item.get(
@@ -140,16 +255,19 @@ class ImageSearcher:
                 )
 
                 object_names = [
-                    obj.get("class", "").lower()
+                    obj.get(
+                        "class",
+                        ""
+                    ).lower()
                     for obj in objects
                 ]
 
                 if object_filter_lower not in object_names:
                     continue
 
-            # ------------------------------------------
-            # Build result
-            # ------------------------------------------
+            # --------------------------------------
+            # Image information
+            # --------------------------------------
 
             filename = item.get(
                 "filename",
@@ -159,23 +277,33 @@ class ImageSearcher:
             results.append(
                 {
                     "rank": len(results) + 1,
-                    "score": round(score, 4),
+
+                    "score": round(
+                        score,
+                        4
+                    ),
+
                     "filename": filename,
+
                     "filepath": item.get(
                         "filepath",
                         ""
                     ),
+
                     "image_url": (
                         f"/images/{filename}"
                     ),
+
                     "caption": item.get(
                         "caption",
                         ""
                     ),
+
                     "multimodal_context": item.get(
                         "multimodal_context",
                         ""
                     ),
+
                     "objects": item.get(
                         "objects",
                         []
@@ -183,9 +311,9 @@ class ImageSearcher:
                 }
             )
 
-            # ------------------------------------------
-            # Stop once enough results are found
-            # ------------------------------------------
+            # --------------------------------------
+            # Stop after top_k valid results
+            # --------------------------------------
 
             if len(results) >= top_k:
                 break
