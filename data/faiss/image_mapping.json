@@ -1,898 +1,1616 @@
 [
-    {
-        "faiss_index": 0,
-        "image_id": 0,
-        "filename": "000000000009.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000009.jpg",
-        "multimodal_context": "Image caption: a lunch box with a variety of food. Detected objects: 3 bowls, one broccoli. Object categories: bowl, broccoli. Object positions: bowl at top-right, broccoli at bottom-center, bowl at bottom-center, bowl at middle-center."
-    },
-    {
-        "faiss_index": 1,
-        "image_id": 1,
-        "filename": "000000000025.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000025.jpg",
-        "multimodal_context": "Image caption: a gi gita gita eating leaves from a tree in the zoo. Detected objects: one giraffe. Object categories: giraffe. Object positions: giraffe at middle-right."
-    },
-    {
-        "faiss_index": 2,
-        "image_id": 2,
-        "filename": "000000000030.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000030.jpg",
-        "multimodal_context": "Image caption: a white vase with flowers on a white fence. Detected objects: one vase, one potted plant. Object categories: potted plant, vase. Object positions: vase at middle-center, potted plant at middle-center."
-    },
-    {
-        "faiss_index": 3,
-        "image_id": 3,
-        "filename": "000000000034.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000034.jpg",
-        "multimodal_context": "Image caption: a zebra grazing in the grass. Detected objects: one zebra. Object categories: zebra. Object positions: zebra at middle-center."
-    },
-    {
-        "faiss_index": 4,
-        "image_id": 4,
-        "filename": "000000000036.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000036.jpg",
-        "multimodal_context": "Image caption: a woman in a bathing suit holding an umbrella. Detected objects: one umbrella, one person. Object categories: person, umbrella. Object positions: umbrella at middle-center, person at middle-right."
-    },
-    {
-        "faiss_index": 5,
-        "image_id": 5,
-        "filename": "000000000042.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000042.jpg",
-        "multimodal_context": "Image caption: a dog laying on top of a shoe rack. Detected objects: one dog. Object categories: dog. Object positions: dog at middle-center."
-    },
-    {
-        "faiss_index": 6,
-        "image_id": 6,
-        "filename": "000000000049.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000049.jpg",
-        "multimodal_context": "Image caption: two people riding horses in a field. Detected objects: 2 horses, one potted plant, 3 persons. Object categories: horse, person, potted plant. Object positions: horse at middle-center, potted plant at bottom-center, horse at middle-center, person at middle-center, person at middle-center, person at bottom-right."
-    },
-    {
-        "faiss_index": 7,
-        "image_id": 7,
-        "filename": "000000000061.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000061.jpg",
-        "multimodal_context": "Image caption: a group of people riding on elephants through the jungle. Detected objects: 2 elephants, one person. Object categories: elephant, person. Object positions: elephant at middle-center, elephant at middle-center, person at middle-center."
-    },
-    {
-        "faiss_index": 8,
-        "image_id": 8,
-        "filename": "000000000064.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000064.jpg",
-        "multimodal_context": "Image caption: a clock on a pole in the middle of a street. Detected objects: one clock, one stop sign, one car. Object categories: car, clock, stop sign. Object positions: clock at top-center, stop sign at middle-left, car at bottom-left."
-    },
-    {
-        "faiss_index": 9,
-        "image_id": 9,
-        "filename": "000000000071.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000071.jpg",
-        "multimodal_context": "Image caption: a train traveling down the tracks in a city. Detected objects: one train, one car. Object categories: car, train. Object positions: train at middle-center, car at middle-right."
-    },
-    {
-        "faiss_index": 10,
-        "image_id": 10,
-        "filename": "000000000072.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000072.jpg",
-        "multimodal_context": "Image caption: two gis are standing in the shade. Detected objects: 2 giraffes. Object categories: giraffe. Object positions: giraffe at middle-right, giraffe at middle-center."
-    },
-    {
-        "faiss_index": 11,
-        "image_id": 11,
-        "filename": "000000000073.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000073.jpg",
-        "multimodal_context": "Image caption: a motorcycle parked in front of a house. Detected objects: 2 motorcycles. Object categories: motorcycle. Object positions: motorcycle at middle-center, motorcycle at top-left."
-    },
-    {
-        "faiss_index": 12,
-        "image_id": 12,
-        "filename": "000000000074.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000074.jpg",
-        "multimodal_context": "Image caption: a dog sleeping on the street in the city. Detected objects: one dog, one bicycle, 3 persons. Object categories: bicycle, dog, person. Object positions: dog at bottom-left, bicycle at middle-left, person at top-center, person at top-center, person at top-center."
-    },
-    {
-        "faiss_index": 13,
-        "image_id": 13,
-        "filename": "000000000077.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000077.jpg",
-        "multimodal_context": "Image caption: a skate park with graffiti on the walls. Detected objects: 4 persons. Object categories: person. Object positions: person at bottom-left, person at top-center, person at top-right, person at top-center."
-    },
-    {
-        "faiss_index": 14,
-        "image_id": 14,
-        "filename": "000000000078.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000078.jpg",
-        "multimodal_context": "Image caption: a clock and a candle are on a table. Detected objects: one clock. Object categories: clock. Object positions: clock at top-right."
-    },
-    {
-        "faiss_index": 15,
-        "image_id": 15,
-        "filename": "000000000081.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000081.jpg",
-        "multimodal_context": "Image caption: a large passenger jet flying through the sky. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at middle-center."
-    },
-    {
-        "faiss_index": 16,
-        "image_id": 16,
-        "filename": "000000000086.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000086.jpg",
-        "multimodal_context": "Image caption: a man on a motorcycle with a box on the back. Detected objects: one person, one bicycle. Object categories: bicycle, person. Object positions: person at middle-center, bicycle at bottom-center."
-    },
-    {
-        "faiss_index": 17,
-        "image_id": 17,
-        "filename": "000000000089.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000089.jpg",
-        "multimodal_context": "Image caption: a kitchen with a stove and oven in it. Detected objects: one oven, 6 knifes, one microwave. Object categories: knife, microwave, oven. Object positions: oven at bottom-center, knife at middle-right, knife at middle-right, microwave at top-left, knife at middle-right, knife at middle-right, knife at middle-right, knife at middle-right."
-    },
-    {
-        "faiss_index": 18,
-        "image_id": 18,
-        "filename": "000000000092.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000092.jpg",
-        "multimodal_context": "Image caption: a piece of chocolate cake on a plate. Detected objects: one fork, one cake. Object categories: cake, fork. Object positions: fork at middle-right, cake at middle-center."
-    },
-    {
-        "faiss_index": 19,
-        "image_id": 19,
-        "filename": "000000000094.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000094.jpg",
-        "multimodal_context": "Image caption: a street in the old city of amman. Detected objects: 2 cars. Object categories: car. Object positions: car at bottom-center, car at bottom-right."
-    },
-    {
-        "faiss_index": 20,
-        "image_id": 20,
-        "filename": "000000000109.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000109.jpg",
-        "multimodal_context": "Image caption: the river and park. Detected objects: 5 persons. Object categories: person. Object positions: person at bottom-right, person at bottom-right, person at middle-right, person at bottom-right, person at middle-right."
-    },
-    {
-        "faiss_index": 21,
-        "image_id": 21,
-        "filename": "000000000110.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000110.jpg",
-        "multimodal_context": "Image caption: a woman and a child are eating pizza. Detected objects: 5 persons, one pizza. Object categories: person, pizza. Object positions: person at middle-left, person at middle-center, pizza at bottom-center, person at top-center, person at top-center, person at top-left."
-    },
-    {
-        "faiss_index": 22,
-        "image_id": 22,
-        "filename": "000000000113.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000113.jpg",
-        "multimodal_context": "Image caption: a man and woman cutting a cake in a kitchen. Detected objects: 3 persons, one dining table, one cup, one knife, one chair, one bowl, one cake. Object categories: bowl, cake, chair, cup, dining table, knife, person. Object positions: person at middle-left, person at middle-center, dining table at bottom-center, person at middle-right, cup at bottom-left, knife at middle-center, chair at middle-center, bowl at middle-right, cake at bottom-center."
-    },
-    {
-        "faiss_index": 23,
-        "image_id": 23,
-        "filename": "000000000127.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000127.jpg",
-        "multimodal_context": "Image caption: a cup of coffee and a piece of cake on a table. Detected objects: one cup, one knife, one sandwich, one book, one dining table. Object categories: book, cup, dining table, knife, sandwich. Object positions: cup at middle-right, knife at bottom-center, sandwich at bottom-center, book at middle-center, dining table at middle-center."
-    },
-    {
-        "faiss_index": 24,
-        "image_id": 24,
-        "filename": "000000000133.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000133.jpg",
-        "multimodal_context": "Image caption: a bunk bed with a desk and a chair. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
-    },
-    {
-        "faiss_index": 25,
-        "image_id": 25,
-        "filename": "000000000136.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000136.jpg",
-        "multimodal_context": "Image caption: a woman looking at a gi gis in a zoo. Detected objects: 2 giraffes, 2 persons. Object categories: giraffe, person. Object positions: giraffe at middle-center, giraffe at middle-right, person at middle-left, person at bottom-left."
-    },
-    {
-        "faiss_index": 26,
-        "image_id": 26,
-        "filename": "000000000138.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000138.jpg",
-        "multimodal_context": "Image caption: a kitchen with a refrigerator, stove and a sink. Detected objects: one refrigerator, one oven, one clock, one vase, one potted plant, one bowl. Object categories: bowl, clock, oven, potted plant, refrigerator, vase. Object positions: refrigerator at middle-left, oven at middle-center, clock at top-center, vase at top-center, potted plant at top-right, bowl at middle-left."
-    },
-    {
-        "faiss_index": 27,
-        "image_id": 27,
-        "filename": "000000000142.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000142.jpg",
-        "multimodal_context": "Image caption: a plate with a sandwich and some bananas. Detected objects: 2 bottles, one banana. Object categories: banana, bottle. Object positions: bottle at top-right, bottle at top-center, banana at bottom-center."
-    },
-    {
-        "faiss_index": 28,
-        "image_id": 28,
-        "filename": "000000000143.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000143.jpg",
-        "multimodal_context": "Image caption: a group of birds sitting on top of a tree. Detected objects: 8 birds. Object categories: bird. Object positions: bird at top-left, bird at bottom-center, bird at middle-center, bird at middle-right, bird at middle-left, bird at bottom-left, bird at middle-left, bird at bottom-right."
-    },
-    {
-        "faiss_index": 29,
-        "image_id": 29,
-        "filename": "000000000144.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000144.jpg",
-        "multimodal_context": "Image caption: two gis are standing in a pen. Detected objects: 4 giraffes. Object categories: giraffe. Object positions: giraffe at middle-center, giraffe at middle-center, giraffe at middle-center, giraffe at middle-center."
-    },
-    {
-        "faiss_index": 30,
-        "image_id": 30,
-        "filename": "000000000149.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000149.jpg",
-        "multimodal_context": "Image caption: a large field with people flying kites. Detected objects: 4 kites. Object categories: kite. Object positions: kite at middle-right, kite at top-right, kite at bottom-left, kite at middle-center."
-    },
-    {
-        "faiss_index": 31,
-        "image_id": 31,
-        "filename": "000000000151.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000151.jpg",
-        "multimodal_context": "Image caption: a stop sign in the forest. Detected objects: one stop sign, one train. Object categories: stop sign, train. Object positions: stop sign at middle-center, train at middle-right."
-    },
-    {
-        "faiss_index": 32,
-        "image_id": 32,
-        "filename": "000000000154.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000154.jpg",
-        "multimodal_context": "Image caption: zebras in the ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser. Detected objects: 3 zebras. Object categories: zebra. Object positions: zebra at bottom-center, zebra at middle-center, zebra at top-right."
-    },
-    {
-        "faiss_index": 33,
-        "image_id": 33,
-        "filename": "000000000164.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000164.jpg",
-        "multimodal_context": "Image caption: a kitchen with a table and chairs in it. Detected objects: one chair, one microwave, one refrigerator, one bottle. Object categories: bottle, chair, microwave, refrigerator. Object positions: chair at bottom-center, microwave at middle-center, refrigerator at middle-right, bottle at top-center."
-    },
-    {
-        "faiss_index": 34,
-        "image_id": 34,
-        "filename": "000000000165.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000165.jpg",
-        "multimodal_context": "Image caption: a man in military uniform is handing a woman a medal. Detected objects: 2 persons, one tie. Object categories: person, tie. Object positions: person at middle-right, tie at middle-left, person at middle-left."
-    },
-    {
-        "faiss_index": 35,
-        "image_id": 35,
-        "filename": "000000000192.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000192.jpg",
-        "multimodal_context": "Image caption: a baseball game with the umpire and the catcher. Detected objects: 4 persons. Object categories: person. Object positions: person at middle-center, person at bottom-center, person at bottom-right, person at bottom-left."
-    },
-    {
-        "faiss_index": 36,
-        "image_id": 36,
-        "filename": "000000000194.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000194.jpg",
-        "multimodal_context": "Image caption: a pizza with meat and vegetables on it. Detected objects: one pizza. Object categories: pizza. Object positions: pizza at middle-center."
-    },
-    {
-        "faiss_index": 37,
-        "image_id": 37,
-        "filename": "000000000196.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000196.jpg",
-        "multimodal_context": "Image caption: a table full of food. Detected objects: 11 bowls, one dining table, one refrigerator, 2 carrots, one spoon. Object categories: bowl, carrot, dining table, refrigerator, spoon. Object positions: bowl at middle-right, bowl at bottom-right, bowl at bottom-right, bowl at top-center, bowl at middle-center, dining table at middle-center, bowl at top-center, bowl at top-left, bowl at middle-center, refrigerator at top-left, carrot at bottom-center, carrot at bottom-center, bowl at middle-left, bowl at bottom-center, bowl at top-center, spoon at top-center."
-    },
-    {
-        "faiss_index": 38,
-        "image_id": 38,
-        "filename": "000000000201.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000201.jpg",
-        "multimodal_context": "Image caption: a snowboard is stuck in the snow. Detected objects: 3 snowboards, one person. Object categories: person, snowboard. Object positions: snowboard at middle-center, person at middle-right, snowboard at middle-center, snowboard at middle-center."
-    },
-    {
-        "faiss_index": 39,
-        "image_id": 39,
-        "filename": "000000000208.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000208.jpg",
-        "multimodal_context": "Image caption: a small lizard is standing on the edge of a sink. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
-    },
-    {
-        "faiss_index": 40,
-        "image_id": 40,
-        "filename": "000000000241.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000241.jpg",
-        "multimodal_context": "Image caption: a man standing in a living room with other people. Detected objects: 5 persons, 2 cups, one bottle, one remote, one couch, one potted plant. Object categories: bottle, couch, cup, person, potted plant, remote. Object positions: person at bottom-left, person at middle-center, person at middle-right, cup at bottom-left, cup at bottom-left, bottle at bottom-left, remote at middle-left, person at bottom-right, couch at middle-right, person at bottom-left, potted plant at top-left."
-    },
-    {
-        "faiss_index": 41,
-        "image_id": 41,
-        "filename": "000000000247.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000247.jpg",
-        "multimodal_context": "Image caption: a small airplane parked on the tarmacl runway. Detected objects: one airplane, one car, one truck. Object categories: airplane, car, truck. Object positions: airplane at middle-center, car at middle-left, truck at middle-right."
-    },
-    {
-        "faiss_index": 42,
-        "image_id": 42,
-        "filename": "000000000250.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000250.jpg",
-        "multimodal_context": "Image caption: a street sign in front of a tall building. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
-    },
-    {
-        "faiss_index": 43,
-        "image_id": 43,
-        "filename": "000000000257.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000257.jpg",
-        "multimodal_context": "Image caption: the triumph arch in the center of the city. Detected objects: 2 trucks, 7 persons, one backpack, one motorcycle. Object categories: backpack, motorcycle, person, truck. Object positions: truck at bottom-center, person at bottom-left, person at bottom-center, person at bottom-center, person at bottom-center, truck at bottom-right, person at bottom-left, person at bottom-center, backpack at bottom-left, motorcycle at bottom-left, person at bottom-center."
-    },
-    {
-        "faiss_index": 44,
-        "image_id": 44,
-        "filename": "000000000260.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000260.jpg",
-        "multimodal_context": "Image caption: a woman standing in front of a bus. Detected objects: one person, one bus, 2 suitcases, one car. Object categories: bus, car, person, suitcase. Object positions: person at middle-center, bus at middle-left, suitcase at bottom-right, car at middle-center, suitcase at bottom-right."
-    },
-    {
-        "faiss_index": 45,
-        "image_id": 45,
-        "filename": "000000000263.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000263.jpg",
-        "multimodal_context": "Image caption: two elephants playing with each other elephants. Detected objects: 2 elephants. Object categories: elephant. Object positions: elephant at middle-center, elephant at middle-left."
-    },
-    {
-        "faiss_index": 46,
-        "image_id": 46,
-        "filename": "000000000283.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000283.jpg",
-        "multimodal_context": "Image caption: a bottle of wine and a glass of wine on a table. Detected objects: one wine glass, 2 bottles, one chair. Object categories: bottle, chair, wine glass. Object positions: wine glass at middle-center, bottle at top-left, chair at top-right, bottle at middle-left."
-    },
-    {
-        "faiss_index": 47,
-        "image_id": 47,
-        "filename": "000000000294.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000294.jpg",
-        "multimodal_context": "Image caption: a man in a kitchen with a pot and pan. Detected objects: one person, 2 microwaves. Object categories: microwave, person. Object positions: person at middle-left, microwave at bottom-right, microwave at bottom-center."
-    },
-    {
-        "faiss_index": 48,
-        "image_id": 48,
-        "filename": "000000000307.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000307.jpg",
-        "multimodal_context": "Image caption: a dog running through the grass with a toy. Detected objects: one frisbee, one dog, one car. Object categories: car, dog, frisbee. Object positions: frisbee at bottom-center, dog at middle-right, car at top-center."
-    },
-    {
-        "faiss_index": 49,
-        "image_id": 49,
-        "filename": "000000000308.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000308.jpg",
-        "multimodal_context": "Image caption: people are gathered around a barrel of wine. Detected objects: 5 persons, 3 wine glasss, one dining table. Object categories: dining table, person, wine glass. Object positions: person at middle-left, person at middle-right, person at middle-left, wine glass at middle-center, wine glass at middle-left, wine glass at middle-left, person at middle-center, person at middle-left, dining table at bottom-center."
-    },
-    {
-        "faiss_index": 50,
-        "image_id": 50,
-        "filename": "000000000309.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000309.jpg",
-        "multimodal_context": "Image caption: a dog laying in the grass with a bird nearby. Detected objects: 2 teddy bears. Object categories: teddy bear. Object positions: teddy bear at middle-left, teddy bear at middle-center."
-    },
-    {
-        "faiss_index": 51,
-        "image_id": 51,
-        "filename": "000000000312.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000312.jpg",
-        "multimodal_context": "Image caption: elephants walking down a dirt road. Detected objects: 5 elephants. Object categories: elephant. Object positions: elephant at bottom-left, elephant at middle-center, elephant at bottom-center, elephant at middle-right, elephant at bottom-right."
-    },
-    {
-        "faiss_index": 52,
-        "image_id": 52,
-        "filename": "000000000315.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000315.jpg",
-        "multimodal_context": "Image caption: people on the beach in the city. Detected objects: 5 persons, 4 umbrellas, one chair. Object categories: chair, person, umbrella. Object positions: person at middle-center, person at middle-right, person at bottom-left, umbrella at middle-left, person at bottom-center, umbrella at middle-left, umbrella at top-center, chair at bottom-center, umbrella at middle-center, person at middle-right."
-    },
-    {
-        "faiss_index": 53,
-        "image_id": 53,
-        "filename": "000000000321.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000321.jpg",
-        "multimodal_context": "Image caption: two hot dogs in plastic containers on a table. Detected objects: 3 hot dogs. Object categories: hot dog. Object positions: hot dog at middle-right, hot dog at middle-left, hot dog at middle-right."
-    },
-    {
-        "faiss_index": 54,
-        "image_id": 54,
-        "filename": "000000000322.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000322.jpg",
-        "multimodal_context": "Image caption: a man throwing a frurd frck in the backyard. Detected objects: one person, 2 frisbees. Object categories: frisbee, person. Object positions: person at middle-left, frisbee at middle-center, frisbee at middle-center."
-    },
-    {
-        "faiss_index": 55,
-        "image_id": 55,
-        "filename": "000000000326.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000326.jpg",
-        "multimodal_context": "Image caption: a man holding a wine glass in his hand. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
-    },
-    {
-        "faiss_index": 56,
-        "image_id": 56,
-        "filename": "000000000328.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000328.jpg",
-        "multimodal_context": "Image caption: three men sitting on a bench. Detected objects: 3 persons, one book. Object categories: book, person. Object positions: person at middle-right, person at middle-center, person at middle-left, book at middle-center."
-    },
-    {
-        "faiss_index": 57,
-        "image_id": 57,
-        "filename": "000000000332.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000332.jpg",
-        "multimodal_context": "Image caption: a bowl of food with rice and vegetables. Detected objects: 2 bowls, 2 carrots, one cup, one dining table. Object categories: bowl, carrot, cup, dining table. Object positions: bowl at top-left, bowl at middle-center, carrot at middle-center, carrot at bottom-left, cup at top-right, dining table at middle-center."
-    },
-    {
-        "faiss_index": 58,
-        "image_id": 58,
-        "filename": "000000000338.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000338.jpg",
-        "multimodal_context": "Image caption: a man standing in a kitchen with a stove. Detected objects: one refrigerator, one clock, 2 persons, 2 ovens. Object categories: clock, oven, person, refrigerator. Object positions: refrigerator at bottom-center, clock at top-right, person at bottom-right, person at bottom-center, oven at bottom-left, oven at bottom-left."
-    },
-    {
-        "faiss_index": 59,
-        "image_id": 59,
-        "filename": "000000000349.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000349.jpg",
-        "multimodal_context": "Image caption: a train is parked at a station. Detected objects: one train, one potted plant. Object categories: potted plant, train. Object positions: train at middle-center, potted plant at middle-right."
-    },
-    {
-        "faiss_index": 60,
-        "image_id": 60,
-        "filename": "000000000357.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000357.jpg",
-        "multimodal_context": "Image caption: a baseball game is being played in a stadium. Detected objects: 7 persons. Object categories: person. Object positions: person at top-center, person at middle-left, person at bottom-right, person at bottom-right, person at bottom-right, person at top-center, person at top-center."
-    },
-    {
-        "faiss_index": 61,
-        "image_id": 61,
-        "filename": "000000000359.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000359.jpg",
-        "multimodal_context": "Image caption: a street with cars and buildings in the background. Detected objects: 3 traffic lights, one car. Object categories: car, traffic light. Object positions: traffic light at middle-center, traffic light at middle-right, traffic light at middle-center, car at bottom-left."
-    },
-    {
-        "faiss_index": 62,
-        "image_id": 62,
-        "filename": "000000000360.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000360.jpg",
-        "multimodal_context": "Image caption: a snowboarder is jumping off a rock. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
-    },
-    {
-        "faiss_index": 63,
-        "image_id": 63,
-        "filename": "000000000368.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000368.jpg",
-        "multimodal_context": "Image caption: a group of kids playing soccer in a field. Detected objects: 6 persons, one sports ball. Object categories: person, sports ball. Object positions: person at middle-center, person at top-center, sports ball at middle-center, person at top-left, person at top-left, person at top-center, person at top-left."
-    },
-    {
-        "faiss_index": 64,
-        "image_id": 64,
-        "filename": "000000000370.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000370.jpg",
-        "multimodal_context": "Image caption: a little girl holding a piece of broccole. Detected objects: one broccoli, one person. Object categories: broccoli, person. Object positions: broccoli at middle-right, person at middle-center."
-    },
-    {
-        "faiss_index": 65,
-        "image_id": 65,
-        "filename": "000000000382.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000382.jpg",
-        "multimodal_context": "Image caption: a skier skiing down a snowy slope. Detected objects: one person. Object categories: person. Object positions: person at bottom-right."
-    },
-    {
-        "faiss_index": 66,
-        "image_id": 66,
-        "filename": "000000000384.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000384.jpg",
-        "multimodal_context": "Image caption: a living room with a couch and a chandel. Detected objects: one clock, 2 couchs, one book. Object categories: book, clock, couch. Object positions: clock at middle-center, couch at bottom-left, book at bottom-left, couch at bottom-left."
-    },
-    {
-        "faiss_index": 67,
-        "image_id": 67,
-        "filename": "000000000387.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000387.jpg",
-        "multimodal_context": "Image caption: a nintendo game console with a game controller. Detected objects: one person. Object categories: person. Object positions: person at top-right."
-    },
-    {
-        "faiss_index": 68,
-        "image_id": 68,
-        "filename": "000000000389.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000389.jpg",
-        "multimodal_context": "Image caption: a man with a beard and a green tie. Detected objects: 7 persons, one tie. Object categories: person, tie. Object positions: person at middle-center, person at bottom-left, person at bottom-right, tie at bottom-center, person at bottom-right, person at bottom-left, person at bottom-right, person at middle-left."
-    },
-    {
-        "faiss_index": 69,
-        "image_id": 69,
-        "filename": "000000000394.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000394.jpg",
-        "multimodal_context": "Image caption: a white dog with a purple fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr. Detected objects: one frisbee, one dog. Object categories: dog, frisbee. Object positions: frisbee at middle-center, dog at middle-center."
-    },
-    {
-        "faiss_index": 70,
-        "image_id": 70,
-        "filename": "000000000395.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000395.jpg",
-        "multimodal_context": "Image caption: a man in a red jacket talking on a cell. Detected objects: 4 persons. Object categories: person. Object positions: person at middle-center, person at middle-left, person at middle-left, person at bottom-right."
-    },
-    {
-        "faiss_index": 71,
-        "image_id": 71,
-        "filename": "000000000397.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000397.jpg",
-        "multimodal_context": "Image caption: a pizza on a metal tray with a woman sitting at the table. Detected objects: one pizza, one person, one chair. Object categories: chair, person, pizza. Object positions: pizza at middle-center, person at top-left, chair at top-right."
-    },
-    {
-        "faiss_index": 72,
-        "image_id": 72,
-        "filename": "000000000400.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000400.jpg",
-        "multimodal_context": "Image caption: a dog is sitting on the back of a boat. Detected objects: one dog, one boat. Object categories: boat, dog. Object positions: dog at top-right, boat at middle-center."
-    },
-    {
-        "faiss_index": 73,
-        "image_id": 73,
-        "filename": "000000000404.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000404.jpg",
-        "multimodal_context": "Image caption: boats in the water at the beach. Detected objects: one boat. Object categories: boat. Object positions: boat at middle-center."
-    },
-    {
-        "faiss_index": 74,
-        "image_id": 74,
-        "filename": "000000000415.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000415.jpg",
-        "multimodal_context": "Image caption: a man playing tennis on a tennis court. Detected objects: one person, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-left, tennis racket at middle-left."
-    },
-    {
-        "faiss_index": 75,
-        "image_id": 75,
-        "filename": "000000000419.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000419.jpg",
-        "multimodal_context": "Image caption: a man in a red shirt playing tennis. Detected objects: 2 persons. Object categories: person. Object positions: person at bottom-right, person at middle-left."
-    },
-    {
-        "faiss_index": 76,
-        "image_id": 76,
-        "filename": "000000000428.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000428.jpg",
-        "multimodal_context": "Image caption: a baby girl is standing in front of a cake. Detected objects: one person, one cake. Object categories: cake, person. Object positions: person at middle-center, cake at bottom-right."
-    },
-    {
-        "faiss_index": 77,
-        "image_id": 77,
-        "filename": "000000000431.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000431.jpg",
-        "multimodal_context": "Image caption: a tennis player hits the ball during a match. Detected objects: one person, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-center, tennis racket at middle-center."
-    },
-    {
-        "faiss_index": 78,
-        "image_id": 78,
-        "filename": "000000000436.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000436.jpg",
-        "multimodal_context": "Image caption: a man sitting in a chair eating a sandwich. Detected objects: one person, one donut, one bottle. Object categories: bottle, donut, person. Object positions: person at middle-center, donut at middle-center, bottle at bottom-center."
-    },
-    {
-        "faiss_index": 79,
-        "image_id": 79,
-        "filename": "000000000438.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000438.jpg",
-        "multimodal_context": "Image caption: a box of doughs. Detected objects: 15 donuts. Object categories: donut. Object positions: donut at bottom-right, donut at middle-right, donut at middle-center, donut at middle-center, donut at middle-center, donut at bottom-center, donut at top-right, donut at middle-center, donut at middle-right, donut at bottom-center, donut at top-left, donut at middle-left, donut at bottom-left, donut at top-left, donut at top-center."
-    },
-    {
-        "faiss_index": 80,
-        "image_id": 80,
-        "filename": "000000000443.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000443.jpg",
-        "multimodal_context": "Image caption: a cat laying on its back on a couch. Detected objects: one remote, one cat, one person. Object categories: cat, person, remote. Object positions: remote at middle-right, cat at middle-center, person at middle-center."
-    },
-    {
-        "faiss_index": 81,
-        "image_id": 81,
-        "filename": "000000000446.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000446.jpg",
-        "multimodal_context": "Image caption: a woman standing in a room with a light on. Detected objects: one person, one couch. Object categories: couch, person. Object positions: person at middle-center, couch at bottom-left."
-    },
-    {
-        "faiss_index": 82,
-        "image_id": 82,
-        "filename": "000000000450.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000450.jpg",
-        "multimodal_context": "Image caption: a pizza on a plate with a fork and knife. Detected objects: one pizza, one wine glass, one cup, one dining table, one bottle. Object categories: bottle, cup, dining table, pizza, wine glass. Object positions: pizza at middle-center, wine glass at top-right, cup at top-right, dining table at middle-center, bottle at top-right."
-    },
-    {
-        "faiss_index": 83,
-        "image_id": 83,
-        "filename": "000000000459.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000459.jpg",
-        "multimodal_context": "Image caption: a man in a suit and tie taking a picture of himself. Detected objects: one person, one tie. Object categories: person, tie. Object positions: person at middle-center, tie at middle-center."
-    },
-    {
-        "faiss_index": 84,
-        "image_id": 84,
-        "filename": "000000000471.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000471.jpg",
-        "multimodal_context": "Image caption: a yellow bus parked in a parking lot. Detected objects: one bus. Object categories: bus. Object positions: bus at middle-center."
-    },
-    {
-        "faiss_index": 85,
-        "image_id": 85,
-        "filename": "000000000472.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000472.jpg",
-        "multimodal_context": "Image caption: a plane flying over a body of water. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at top-right."
-    },
-    {
-        "faiss_index": 86,
-        "image_id": 86,
-        "filename": "000000000474.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000474.jpg",
-        "multimodal_context": "Image caption: a young boy playing with a toy in the grass. Detected objects: one person, one baseball glove. Object categories: baseball glove, person. Object positions: person at middle-center, baseball glove at middle-left."
-    },
-    {
-        "faiss_index": 87,
-        "image_id": 87,
-        "filename": "000000000486.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000486.jpg",
-        "multimodal_context": "Image caption: a kitchen with a wooden counter and a sink. Detected objects: one bowl, one refrigerator. Object categories: bowl, refrigerator. Object positions: bowl at bottom-center, refrigerator at middle-right."
-    },
-    {
-        "faiss_index": 88,
-        "image_id": 88,
-        "filename": "000000000488.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000488.jpg",
-        "multimodal_context": "Image caption: a baseball game is being played on a field. Detected objects: 5 persons, one sports ball, one baseball glove. Object categories: baseball glove, person, sports ball. Object positions: person at bottom-left, person at bottom-center, person at middle-right, person at bottom-left, sports ball at middle-right, baseball glove at bottom-center, person at middle-center."
-    },
-    {
-        "faiss_index": 89,
-        "image_id": 89,
-        "filename": "000000000490.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000490.jpg",
-        "multimodal_context": "Image caption: a dog standing in front of a skateboard. Detected objects: one dog, one skateboard. Object categories: dog, skateboard. Object positions: dog at middle-left, skateboard at middle-right."
-    },
-    {
-        "faiss_index": 90,
-        "image_id": 90,
-        "filename": "000000000491.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000491.jpg",
-        "multimodal_context": "Image caption: a group of stuffed animals sitting on a bicycle. Detected objects: one teddy bear. Object categories: teddy bear. Object positions: teddy bear at middle-center."
-    },
-    {
-        "faiss_index": 91,
-        "image_id": 91,
-        "filename": "000000000502.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000502.jpg",
-        "multimodal_context": "Image caption: a black bear walking on the side of a mountain. Detected objects: one bear. Object categories: bear. Object positions: bear at middle-center."
-    },
-    {
-        "faiss_index": 92,
-        "image_id": 92,
-        "filename": "000000000508.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000508.jpg",
-        "multimodal_context": "Image caption: a view of the mountains from the top of a mountain. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
-    },
-    {
-        "faiss_index": 93,
-        "image_id": 93,
-        "filename": "000000000510.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000510.jpg",
-        "multimodal_context": "Image caption: a man sitting on a bench in front of a fountain. Detected objects: one person, one bench. Object categories: bench, person. Object positions: person at middle-center, bench at middle-center."
-    },
-    {
-        "faiss_index": 94,
-        "image_id": 94,
-        "filename": "000000000514.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000514.jpg",
-        "multimodal_context": "Image caption: the bed in the bedroom. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
-    },
-    {
-        "faiss_index": 95,
-        "image_id": 95,
-        "filename": "000000000520.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000520.jpg",
-        "multimodal_context": "Image caption: birds flying over the water at sunset. Detected objects: 7 birds. Object categories: bird. Object positions: bird at top-center, bird at middle-left, bird at top-center, bird at middle-left, bird at middle-right, bird at middle-right, bird at middle-right."
-    },
-    {
-        "faiss_index": 96,
-        "image_id": 96,
-        "filename": "000000000529.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000529.jpg",
-        "multimodal_context": "Image caption: a woman riding a dirt bike on a grassy field. Detected objects: one motorcycle, one person. Object categories: motorcycle, person. Object positions: motorcycle at middle-center, person at middle-center."
-    },
-    {
-        "faiss_index": 97,
-        "image_id": 97,
-        "filename": "000000000531.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000531.jpg",
-        "multimodal_context": "Image caption: a tennis court with people playing tennis on it. Detected objects: 6 persons, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-center, person at middle-left, person at bottom-left, person at middle-center, person at middle-left, person at middle-right, tennis racket at middle-center."
-    },
-    {
-        "faiss_index": 98,
-        "image_id": 98,
-        "filename": "000000000532.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000532.jpg",
-        "multimodal_context": "Image caption: two buses parked next to each other vehicles. Detected objects: one bus, 2 persons, one truck. Object categories: bus, person, truck. Object positions: bus at middle-center, person at middle-left, person at middle-center, truck at middle-left."
-    },
-    {
-        "faiss_index": 99,
-        "image_id": 99,
-        "filename": "000000000536.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000536.jpg",
-        "multimodal_context": "Image caption: three women in dresses. Detected objects: 3 persons, one handbag. Object categories: handbag, person. Object positions: person at bottom-right, person at middle-center, person at middle-left, handbag at bottom-left."
-    },
-    {
-        "faiss_index": 100,
-        "image_id": 100,
-        "filename": "000000000540.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000540.jpg",
-        "multimodal_context": "Image caption: a plane is seen on the runway. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at middle-center."
-    },
-    {
-        "faiss_index": 101,
-        "image_id": 101,
-        "filename": "000000000542.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000542.jpg",
-        "multimodal_context": "Image caption: a group of men standing around a small plane. Detected objects: 6 persons, one airplane. Object categories: airplane, person. Object positions: person at middle-center, person at middle-right, person at middle-left, person at middle-center, person at middle-center, airplane at top-center, person at middle-left."
-    },
-    {
-        "faiss_index": 102,
-        "image_id": 102,
-        "filename": "000000000544.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000544.jpg",
-        "multimodal_context": "Image caption: a baseball game is being played in a stadium. Detected objects: 7 persons, one baseball glove. Object categories: baseball glove, person. Object positions: person at bottom-left, person at bottom-center, person at bottom-left, baseball glove at bottom-center, person at middle-left, person at middle-center, person at middle-left, person at middle-left."
-    },
-    {
-        "faiss_index": 103,
-        "image_id": 103,
-        "filename": "000000000560.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000560.jpg",
-        "multimodal_context": "Image caption: a bathroom with a tub and a sink. Detected objects: one sink, one potted plant. Object categories: potted plant, sink. Object positions: sink at bottom-left, potted plant at middle-left."
-    },
-    {
-        "faiss_index": 104,
-        "image_id": 104,
-        "filename": "000000000562.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000562.jpg",
-        "multimodal_context": "Image caption: tooths in a glass of water. Detected objects: 2 toothbrushs, one cup. Object categories: cup, toothbrush. Object positions: toothbrush at top-center, toothbrush at middle-center, cup at middle-center."
-    },
-    {
-        "faiss_index": 105,
-        "image_id": 105,
-        "filename": "000000000564.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000564.jpg",
-        "multimodal_context": "Image caption: a man in a yellow shirt and white shorts playing tennis. Detected objects: one person, 21 chairs. Object categories: chair, person. Object positions: person at bottom-center, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-right, chair at middle-center, chair at middle-center, chair at middle-right, chair at middle-center, chair at middle-left, chair at middle-right, chair at middle-center, chair at middle-left, chair at middle-center, chair at middle-right, chair at middle-left, chair at middle-left, chair at middle-right, chair at middle-right."
-    },
-    {
-        "faiss_index": 106,
-        "image_id": 106,
-        "filename": "000000000569.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000569.jpg",
-        "multimodal_context": "Image caption: a man in a white coat is flying a kite. Detected objects: one person. Object categories: person. Object positions: person at bottom-left."
-    },
-    {
-        "faiss_index": 107,
-        "image_id": 107,
-        "filename": "000000000572.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000572.jpg",
-        "multimodal_context": "Image caption: a man and woman are standing on the stairs. Detected objects: one suitcase, 2 persons. Object categories: person, suitcase. Object positions: suitcase at bottom-right, person at middle-left, person at middle-center."
-    },
-    {
-        "faiss_index": 108,
-        "image_id": 108,
-        "filename": "000000000575.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000575.jpg",
-        "multimodal_context": "Image caption: a cat playing with a shoe in the grass. Detected objects: one cat. Object categories: cat. Object positions: cat at middle-left."
-    },
-    {
-        "faiss_index": 109,
-        "image_id": 109,
-        "filename": "000000000581.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000581.jpg",
-        "multimodal_context": "Image caption: a small dog is sitting on the floor. Detected objects: one dog. Object categories: dog. Object positions: dog at middle-center."
-    },
-    {
-        "faiss_index": 110,
-        "image_id": 110,
-        "filename": "000000000584.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000584.jpg",
-        "multimodal_context": "Image caption: a bowl of food on a table. Detected objects: 6 carrots, one bowl, one spoon. Object categories: bowl, carrot, spoon. Object positions: carrot at bottom-center, carrot at middle-right, bowl at middle-center, carrot at middle-right, carrot at bottom-right, carrot at middle-left, spoon at top-left, carrot at bottom-right."
-    },
-    {
-        "faiss_index": 111,
-        "image_id": 111,
-        "filename": "000000000589.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000589.jpg",
-        "multimodal_context": "Image caption: a man in a white shirt throwing a ball. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
-    },
-    {
-        "faiss_index": 112,
-        "image_id": 112,
-        "filename": "000000000590.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000590.jpg",
-        "multimodal_context": "Image caption: a bathroom with a sink and mirror. Detected objects: one sink. Object categories: sink. Object positions: sink at middle-left."
-    },
-    {
-        "faiss_index": 113,
-        "image_id": 113,
-        "filename": "000000000595.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000595.jpg",
-        "multimodal_context": "Image caption: a tv in the middle of a river. Detected objects: one tv. Object categories: tv. Object positions: tv at bottom-right."
-    },
-    {
-        "faiss_index": 114,
-        "image_id": 114,
-        "filename": "000000000597.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000597.jpg",
-        "multimodal_context": "Image caption: a herd of elephants walking across a dry grass covered field. Detected objects: 7 elephants. Object categories: elephant. Object positions: elephant at bottom-left, elephant at bottom-left, elephant at bottom-center, elephant at bottom-center, elephant at bottom-center, elephant at bottom-right, elephant at bottom-left."
-    },
-    {
-        "faiss_index": 115,
-        "image_id": 115,
-        "filename": "000000000599.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000599.jpg",
-        "multimodal_context": "Image caption: a cat sitting on a leather chair with a remote control. Detected objects: one cat, 2 remotes, one potted plant, one couch. Object categories: cat, couch, potted plant, remote. Object positions: cat at middle-center, remote at middle-right, remote at middle-right, potted plant at top-right, couch at middle-center."
-    },
-    {
-        "faiss_index": 116,
-        "image_id": 116,
-        "filename": "000000000605.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000605.jpg",
-        "multimodal_context": "Image caption: two cups of coffee and a pastry on a table. Detected objects: one dining table, 2 cups, 2 cakes, one spoon. Object categories: cake, cup, dining table, spoon. Object positions: dining table at middle-center, cup at middle-center, cup at top-right, cake at top-left, spoon at middle-center, cake at middle-left."
-    },
-    {
-        "faiss_index": 117,
-        "image_id": 117,
-        "filename": "000000000612.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000612.jpg",
-        "multimodal_context": "Image caption: a bed with a christmas tree and decorations. Detected objects: 2 teddy bears. Object categories: teddy bear. Object positions: teddy bear at middle-center, teddy bear at middle-center."
-    },
-    {
-        "faiss_index": 118,
-        "image_id": 118,
-        "filename": "000000000620.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000620.jpg",
-        "multimodal_context": "Image caption: a pizza oven with two pizzas inside of it. Detected objects: 2 pizzas. Object categories: pizza. Object positions: pizza at middle-center, pizza at middle-center."
-    },
-    {
-        "faiss_index": 119,
-        "image_id": 119,
-        "filename": "000000000623.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000623.jpg",
-        "multimodal_context": "Image caption: a woman is hugging a teddy bear in a restaurant. Detected objects: one teddy bear, one person. Object categories: person, teddy bear. Object positions: teddy bear at middle-left, person at middle-right."
-    },
-    {
-        "faiss_index": 120,
-        "image_id": 120,
-        "filename": "000000000625.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000625.jpg",
-        "multimodal_context": "Image caption: a group of people playing frc in a field. Detected objects: 3 persons, one frisbee. Object categories: frisbee, person. Object positions: person at bottom-right, person at bottom-center, person at middle-center, frisbee at top-center."
-    },
-    {
-        "faiss_index": 121,
-        "image_id": 121,
-        "filename": "000000000626.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000626.jpg",
-        "multimodal_context": "Image caption: a clock tower in the middle of a city. Detected objects: 2 clocks. Object categories: clock. Object positions: clock at top-center, clock at top-center."
-    },
-    {
-        "faiss_index": 122,
-        "image_id": 122,
-        "filename": "000000000629.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000629.jpg",
-        "multimodal_context": "Image caption: a motorcycle parked in front of a building with a tree painted on it. Detected objects: one motorcycle. Object categories: motorcycle. Object positions: motorcycle at bottom-right."
-    },
-    {
-        "faiss_index": 123,
-        "image_id": 123,
-        "filename": "000000000634.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000634.jpg",
-        "multimodal_context": "Image caption: a skateboarder is riding a ramp at a skate park. Detected objects: 5 persons, one skateboard. Object categories: person, skateboard. Object positions: person at middle-center, person at top-right, person at top-center, skateboard at bottom-center, person at top-left, person at top-center."
-    },
-    {
-        "faiss_index": 124,
-        "image_id": 124,
-        "filename": "000000000636.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000636.jpg",
-        "multimodal_context": "Image caption: a toilet in a bathroom with a hole in the wall. Detected objects: one toilet. Object categories: toilet. Object positions: toilet at middle-center."
-    },
-    {
-        "faiss_index": 125,
-        "image_id": 125,
-        "filename": "000000000641.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000641.jpg",
-        "multimodal_context": "Image caption: a bus is driving down the street in front of a building. Detected objects: one bus. Object categories: bus. Object positions: bus at middle-center."
-    },
-    {
-        "faiss_index": 126,
-        "image_id": 126,
-        "filename": "000000000643.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000643.jpg",
-        "multimodal_context": "Image caption: a computer on a desk. Detected objects: one tv, one bottle, one bowl. Object categories: bottle, bowl, tv. Object positions: tv at bottom-center, bottle at bottom-left, bowl at top-center."
-    },
-    {
-        "faiss_index": 127,
-        "image_id": 127,
-        "filename": "000000000650.jpg",
-        "filepath": "E:\\visonRag\\data\\raw\\000000000650.jpg",
-        "multimodal_context": "Image caption: a cat sitting on the hood of a car. Detected objects: one cat, one car. Object categories: car, cat. Object positions: cat at middle-center, car at bottom-center."
-    }
+  {
+    "faiss_index": 0,
+    "image_id": 0,
+    "filename": "000000000009.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000009.jpg",
+    "multimodal_context": "Image caption: a lunch box with a variety of food. Detected objects: 3 bowls, one broccoli. Object categories: bowl, broccoli. Object positions: bowl at top-right, broccoli at bottom-center, bowl at bottom-center, bowl at middle-center."
+  },
+  {
+    "faiss_index": 1,
+    "image_id": 1,
+    "filename": "000000000025.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000025.jpg",
+    "multimodal_context": "Image caption: a gi gita gita eating leaves from a tree in the zoo. Detected objects: one giraffe. Object categories: giraffe. Object positions: giraffe at middle-right."
+  },
+  {
+    "faiss_index": 2,
+    "image_id": 2,
+    "filename": "000000000030.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000030.jpg",
+    "multimodal_context": "Image caption: a white vase with flowers on a white fence. Detected objects: one vase, one potted plant. Object categories: potted plant, vase. Object positions: vase at middle-center, potted plant at middle-center."
+  },
+  {
+    "faiss_index": 3,
+    "image_id": 3,
+    "filename": "000000000034.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000034.jpg",
+    "multimodal_context": "Image caption: a zebra grazing in the grass. Detected objects: one zebra. Object categories: zebra. Object positions: zebra at middle-center."
+  },
+  {
+    "faiss_index": 4,
+    "image_id": 4,
+    "filename": "000000000036.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000036.jpg",
+    "multimodal_context": "Image caption: a woman in a bathing suit holding an umbrella. Detected objects: one umbrella, one person. Object categories: person, umbrella. Object positions: umbrella at middle-center, person at middle-right."
+  },
+  {
+    "faiss_index": 5,
+    "image_id": 5,
+    "filename": "000000000042.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000042.jpg",
+    "multimodal_context": "Image caption: a dog laying on top of a shoe rack. Detected objects: one dog. Object categories: dog. Object positions: dog at middle-center."
+  },
+  {
+    "faiss_index": 6,
+    "image_id": 6,
+    "filename": "000000000049.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000049.jpg",
+    "multimodal_context": "Image caption: two people riding horses in a field. Detected objects: 2 horses, one potted plant, 3 persons. Object categories: horse, person, potted plant. Object positions: horse at middle-center, potted plant at bottom-center, horse at middle-center, person at middle-center, person at middle-center, person at bottom-right."
+  },
+  {
+    "faiss_index": 7,
+    "image_id": 7,
+    "filename": "000000000061.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000061.jpg",
+    "multimodal_context": "Image caption: a group of people riding on elephants through the jungle. Detected objects: 2 elephants, one person. Object categories: elephant, person. Object positions: elephant at middle-center, elephant at middle-center, person at middle-center."
+  },
+  {
+    "faiss_index": 8,
+    "image_id": 8,
+    "filename": "000000000064.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000064.jpg",
+    "multimodal_context": "Image caption: a clock on a pole in the middle of a street. Detected objects: one clock, one stop sign, one car. Object categories: car, clock, stop sign. Object positions: clock at top-center, stop sign at middle-left, car at bottom-left."
+  },
+  {
+    "faiss_index": 9,
+    "image_id": 9,
+    "filename": "000000000071.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000071.jpg",
+    "multimodal_context": "Image caption: a train traveling down the tracks in a city. Detected objects: one train, one car. Object categories: car, train. Object positions: train at middle-center, car at middle-right."
+  },
+  {
+    "faiss_index": 10,
+    "image_id": 10,
+    "filename": "000000000072.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000072.jpg",
+    "multimodal_context": "Image caption: two gis are standing in the shade. Detected objects: 2 giraffes. Object categories: giraffe. Object positions: giraffe at middle-right, giraffe at middle-center."
+  },
+  {
+    "faiss_index": 11,
+    "image_id": 11,
+    "filename": "000000000073.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000073.jpg",
+    "multimodal_context": "Image caption: a motorcycle parked in front of a house. Detected objects: 2 motorcycles. Object categories: motorcycle. Object positions: motorcycle at middle-center, motorcycle at top-left."
+  },
+  {
+    "faiss_index": 12,
+    "image_id": 12,
+    "filename": "000000000074.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000074.jpg",
+    "multimodal_context": "Image caption: a dog sleeping on the street in the city. Detected objects: one dog, one bicycle, 3 persons. Object categories: bicycle, dog, person. Object positions: dog at bottom-left, bicycle at middle-left, person at top-center, person at top-center, person at top-center."
+  },
+  {
+    "faiss_index": 13,
+    "image_id": 13,
+    "filename": "000000000077.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000077.jpg",
+    "multimodal_context": "Image caption: a skate park with graffiti on the walls. Detected objects: 4 persons. Object categories: person. Object positions: person at bottom-left, person at top-center, person at top-right, person at top-center."
+  },
+  {
+    "faiss_index": 14,
+    "image_id": 14,
+    "filename": "000000000078.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000078.jpg",
+    "multimodal_context": "Image caption: a clock and a candle are on a table. Detected objects: one clock. Object categories: clock. Object positions: clock at top-right."
+  },
+  {
+    "faiss_index": 15,
+    "image_id": 15,
+    "filename": "000000000081.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000081.jpg",
+    "multimodal_context": "Image caption: a large passenger jet flying through the sky. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at middle-center."
+  },
+  {
+    "faiss_index": 16,
+    "image_id": 16,
+    "filename": "000000000086.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000086.jpg",
+    "multimodal_context": "Image caption: a man on a motorcycle with a box on the back. Detected objects: one person, one bicycle. Object categories: bicycle, person. Object positions: person at middle-center, bicycle at bottom-center."
+  },
+  {
+    "faiss_index": 17,
+    "image_id": 17,
+    "filename": "000000000089.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000089.jpg",
+    "multimodal_context": "Image caption: a kitchen with a stove and oven in it. Detected objects: one oven, 6 knifes, one microwave. Object categories: knife, microwave, oven. Object positions: oven at bottom-center, knife at middle-right, knife at middle-right, microwave at top-left, knife at middle-right, knife at middle-right, knife at middle-right, knife at middle-right."
+  },
+  {
+    "faiss_index": 18,
+    "image_id": 18,
+    "filename": "000000000092.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000092.jpg",
+    "multimodal_context": "Image caption: a piece of chocolate cake on a plate. Detected objects: one fork, one cake. Object categories: cake, fork. Object positions: fork at middle-right, cake at middle-center."
+  },
+  {
+    "faiss_index": 19,
+    "image_id": 19,
+    "filename": "000000000094.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000094.jpg",
+    "multimodal_context": "Image caption: a street in the old city of amman. Detected objects: 2 cars. Object categories: car. Object positions: car at bottom-center, car at bottom-right."
+  },
+  {
+    "faiss_index": 20,
+    "image_id": 20,
+    "filename": "000000000109.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000109.jpg",
+    "multimodal_context": "Image caption: the river and park. Detected objects: 5 persons. Object categories: person. Object positions: person at bottom-right, person at bottom-right, person at middle-right, person at bottom-right, person at middle-right."
+  },
+  {
+    "faiss_index": 21,
+    "image_id": 21,
+    "filename": "000000000110.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000110.jpg",
+    "multimodal_context": "Image caption: a woman and a child are eating pizza. Detected objects: 5 persons, one pizza. Object categories: person, pizza. Object positions: person at middle-left, person at middle-center, pizza at bottom-center, person at top-center, person at top-center, person at top-left."
+  },
+  {
+    "faiss_index": 22,
+    "image_id": 22,
+    "filename": "000000000113.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000113.jpg",
+    "multimodal_context": "Image caption: a man and woman cutting a cake in a kitchen. Detected objects: 3 persons, one dining table, one cup, one knife, one chair, one bowl, one cake. Object categories: bowl, cake, chair, cup, dining table, knife, person. Object positions: person at middle-left, person at middle-center, dining table at bottom-center, person at middle-right, cup at bottom-left, knife at middle-center, chair at middle-center, bowl at middle-right, cake at bottom-center."
+  },
+  {
+    "faiss_index": 23,
+    "image_id": 23,
+    "filename": "000000000127.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000127.jpg",
+    "multimodal_context": "Image caption: a cup of coffee and a piece of cake on a table. Detected objects: one cup, one knife, one sandwich, one book, one dining table. Object categories: book, cup, dining table, knife, sandwich. Object positions: cup at middle-right, knife at bottom-center, sandwich at bottom-center, book at middle-center, dining table at middle-center."
+  },
+  {
+    "faiss_index": 24,
+    "image_id": 24,
+    "filename": "000000000133.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000133.jpg",
+    "multimodal_context": "Image caption: a bunk bed with a desk and a chair. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
+  },
+  {
+    "faiss_index": 25,
+    "image_id": 25,
+    "filename": "000000000136.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000136.jpg",
+    "multimodal_context": "Image caption: a woman looking at a gi gis in a zoo. Detected objects: 2 giraffes, 2 persons. Object categories: giraffe, person. Object positions: giraffe at middle-center, giraffe at middle-right, person at middle-left, person at bottom-left."
+  },
+  {
+    "faiss_index": 26,
+    "image_id": 26,
+    "filename": "000000000138.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000138.jpg",
+    "multimodal_context": "Image caption: a kitchen with a refrigerator, stove and a sink. Detected objects: one refrigerator, one oven, one clock, one vase, one potted plant, one bowl. Object categories: bowl, clock, oven, potted plant, refrigerator, vase. Object positions: refrigerator at middle-left, oven at middle-center, clock at top-center, vase at top-center, potted plant at top-right, bowl at middle-left."
+  },
+  {
+    "faiss_index": 27,
+    "image_id": 27,
+    "filename": "000000000142.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000142.jpg",
+    "multimodal_context": "Image caption: a plate with a sandwich and some bananas. Detected objects: 2 bottles, one banana. Object categories: banana, bottle. Object positions: bottle at top-right, bottle at top-center, banana at bottom-center."
+  },
+  {
+    "faiss_index": 28,
+    "image_id": 28,
+    "filename": "000000000143.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000143.jpg",
+    "multimodal_context": "Image caption: a group of birds sitting on top of a tree. Detected objects: 8 birds. Object categories: bird. Object positions: bird at top-left, bird at bottom-center, bird at middle-center, bird at middle-right, bird at middle-left, bird at bottom-left, bird at middle-left, bird at bottom-right."
+  },
+  {
+    "faiss_index": 29,
+    "image_id": 29,
+    "filename": "000000000144.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000144.jpg",
+    "multimodal_context": "Image caption: two gis are standing in a pen. Detected objects: 4 giraffes. Object categories: giraffe. Object positions: giraffe at middle-center, giraffe at middle-center, giraffe at middle-center, giraffe at middle-center."
+  },
+  {
+    "faiss_index": 30,
+    "image_id": 30,
+    "filename": "000000000149.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000149.jpg",
+    "multimodal_context": "Image caption: a large field with people flying kites. Detected objects: 4 kites. Object categories: kite. Object positions: kite at middle-right, kite at top-right, kite at bottom-left, kite at middle-center."
+  },
+  {
+    "faiss_index": 31,
+    "image_id": 31,
+    "filename": "000000000151.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000151.jpg",
+    "multimodal_context": "Image caption: a stop sign in the forest. Detected objects: one stop sign, one train. Object categories: stop sign, train. Object positions: stop sign at middle-center, train at middle-right."
+  },
+  {
+    "faiss_index": 32,
+    "image_id": 32,
+    "filename": "000000000154.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000154.jpg",
+    "multimodal_context": "Image caption: zebras in the ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser ser. Detected objects: 3 zebras. Object categories: zebra. Object positions: zebra at bottom-center, zebra at middle-center, zebra at top-right."
+  },
+  {
+    "faiss_index": 33,
+    "image_id": 33,
+    "filename": "000000000164.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000164.jpg",
+    "multimodal_context": "Image caption: a kitchen with a table and chairs in it. Detected objects: one chair, one microwave, one refrigerator, one bottle. Object categories: bottle, chair, microwave, refrigerator. Object positions: chair at bottom-center, microwave at middle-center, refrigerator at middle-right, bottle at top-center."
+  },
+  {
+    "faiss_index": 34,
+    "image_id": 34,
+    "filename": "000000000165.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000165.jpg",
+    "multimodal_context": "Image caption: a man in military uniform is handing a woman a medal. Detected objects: 2 persons, one tie. Object categories: person, tie. Object positions: person at middle-right, tie at middle-left, person at middle-left."
+  },
+  {
+    "faiss_index": 35,
+    "image_id": 35,
+    "filename": "000000000192.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000192.jpg",
+    "multimodal_context": "Image caption: a baseball game with the umpire and the catcher. Detected objects: 4 persons. Object categories: person. Object positions: person at middle-center, person at bottom-center, person at bottom-right, person at bottom-left."
+  },
+  {
+    "faiss_index": 36,
+    "image_id": 36,
+    "filename": "000000000194.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000194.jpg",
+    "multimodal_context": "Image caption: a pizza with meat and vegetables on it. Detected objects: one pizza. Object categories: pizza. Object positions: pizza at middle-center."
+  },
+  {
+    "faiss_index": 37,
+    "image_id": 37,
+    "filename": "000000000196.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000196.jpg",
+    "multimodal_context": "Image caption: a table full of food. Detected objects: 11 bowls, one dining table, one refrigerator, 2 carrots, one spoon. Object categories: bowl, carrot, dining table, refrigerator, spoon. Object positions: bowl at middle-right, bowl at bottom-right, bowl at bottom-right, bowl at top-center, bowl at middle-center, dining table at middle-center, bowl at top-center, bowl at top-left, bowl at middle-center, refrigerator at top-left, carrot at bottom-center, carrot at bottom-center, bowl at middle-left, bowl at bottom-center, bowl at top-center, spoon at top-center."
+  },
+  {
+    "faiss_index": 38,
+    "image_id": 38,
+    "filename": "000000000201.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000201.jpg",
+    "multimodal_context": "Image caption: a snowboard is stuck in the snow. Detected objects: 3 snowboards, one person. Object categories: person, snowboard. Object positions: snowboard at middle-center, person at middle-right, snowboard at middle-center, snowboard at middle-center."
+  },
+  {
+    "faiss_index": 39,
+    "image_id": 39,
+    "filename": "000000000208.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000208.jpg",
+    "multimodal_context": "Image caption: a small lizard is standing on the edge of a sink. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
+  },
+  {
+    "faiss_index": 40,
+    "image_id": 40,
+    "filename": "000000000241.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000241.jpg",
+    "multimodal_context": "Image caption: a man standing in a living room with other people. Detected objects: 5 persons, 2 cups, one bottle, one remote, one couch, one potted plant. Object categories: bottle, couch, cup, person, potted plant, remote. Object positions: person at bottom-left, person at middle-center, person at middle-right, cup at bottom-left, cup at bottom-left, bottle at bottom-left, remote at middle-left, person at bottom-right, couch at middle-right, person at bottom-left, potted plant at top-left."
+  },
+  {
+    "faiss_index": 41,
+    "image_id": 41,
+    "filename": "000000000247.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000247.jpg",
+    "multimodal_context": "Image caption: a small airplane parked on the tarmacl runway. Detected objects: one airplane, one car, one truck. Object categories: airplane, car, truck. Object positions: airplane at middle-center, car at middle-left, truck at middle-right."
+  },
+  {
+    "faiss_index": 42,
+    "image_id": 42,
+    "filename": "000000000250.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000250.jpg",
+    "multimodal_context": "Image caption: a street sign in front of a tall building. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
+  },
+  {
+    "faiss_index": 43,
+    "image_id": 43,
+    "filename": "000000000257.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000257.jpg",
+    "multimodal_context": "Image caption: the triumph arch in the center of the city. Detected objects: 2 trucks, 7 persons, one backpack, one motorcycle. Object categories: backpack, motorcycle, person, truck. Object positions: truck at bottom-center, person at bottom-left, person at bottom-center, person at bottom-center, person at bottom-center, truck at bottom-right, person at bottom-left, person at bottom-center, backpack at bottom-left, motorcycle at bottom-left, person at bottom-center."
+  },
+  {
+    "faiss_index": 44,
+    "image_id": 44,
+    "filename": "000000000260.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000260.jpg",
+    "multimodal_context": "Image caption: a woman standing in front of a bus. Detected objects: one person, one bus, 2 suitcases, one car. Object categories: bus, car, person, suitcase. Object positions: person at middle-center, bus at middle-left, suitcase at bottom-right, car at middle-center, suitcase at bottom-right."
+  },
+  {
+    "faiss_index": 45,
+    "image_id": 45,
+    "filename": "000000000263.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000263.jpg",
+    "multimodal_context": "Image caption: two elephants playing with each other elephants. Detected objects: 2 elephants. Object categories: elephant. Object positions: elephant at middle-center, elephant at middle-left."
+  },
+  {
+    "faiss_index": 46,
+    "image_id": 46,
+    "filename": "000000000283.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000283.jpg",
+    "multimodal_context": "Image caption: a bottle of wine and a glass of wine on a table. Detected objects: one wine glass, 2 bottles, one chair. Object categories: bottle, chair, wine glass. Object positions: wine glass at middle-center, bottle at top-left, chair at top-right, bottle at middle-left."
+  },
+  {
+    "faiss_index": 47,
+    "image_id": 47,
+    "filename": "000000000294.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000294.jpg",
+    "multimodal_context": "Image caption: a man in a kitchen with a pot and pan. Detected objects: one person, 2 microwaves. Object categories: microwave, person. Object positions: person at middle-left, microwave at bottom-right, microwave at bottom-center."
+  },
+  {
+    "faiss_index": 48,
+    "image_id": 48,
+    "filename": "000000000307.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000307.jpg",
+    "multimodal_context": "Image caption: a dog running through the grass with a toy. Detected objects: one frisbee, one dog, one car. Object categories: car, dog, frisbee. Object positions: frisbee at bottom-center, dog at middle-right, car at top-center."
+  },
+  {
+    "faiss_index": 49,
+    "image_id": 49,
+    "filename": "000000000308.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000308.jpg",
+    "multimodal_context": "Image caption: people are gathered around a barrel of wine. Detected objects: 5 persons, 3 wine glasss, one dining table. Object categories: dining table, person, wine glass. Object positions: person at middle-left, person at middle-right, person at middle-left, wine glass at middle-center, wine glass at middle-left, wine glass at middle-left, person at middle-center, person at middle-left, dining table at bottom-center."
+  },
+  {
+    "faiss_index": 50,
+    "image_id": 50,
+    "filename": "000000000309.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000309.jpg",
+    "multimodal_context": "Image caption: a dog laying in the grass with a bird nearby. Detected objects: 2 teddy bears. Object categories: teddy bear. Object positions: teddy bear at middle-left, teddy bear at middle-center."
+  },
+  {
+    "faiss_index": 51,
+    "image_id": 51,
+    "filename": "000000000312.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000312.jpg",
+    "multimodal_context": "Image caption: elephants walking down a dirt road. Detected objects: 5 elephants. Object categories: elephant. Object positions: elephant at bottom-left, elephant at middle-center, elephant at bottom-center, elephant at middle-right, elephant at bottom-right."
+  },
+  {
+    "faiss_index": 52,
+    "image_id": 52,
+    "filename": "000000000315.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000315.jpg",
+    "multimodal_context": "Image caption: people on the beach in the city. Detected objects: 5 persons, 4 umbrellas, one chair. Object categories: chair, person, umbrella. Object positions: person at middle-center, person at middle-right, person at bottom-left, umbrella at middle-left, person at bottom-center, umbrella at middle-left, umbrella at top-center, chair at bottom-center, umbrella at middle-center, person at middle-right."
+  },
+  {
+    "faiss_index": 53,
+    "image_id": 53,
+    "filename": "000000000321.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000321.jpg",
+    "multimodal_context": "Image caption: two hot dogs in plastic containers on a table. Detected objects: 3 hot dogs. Object categories: hot dog. Object positions: hot dog at middle-right, hot dog at middle-left, hot dog at middle-right."
+  },
+  {
+    "faiss_index": 54,
+    "image_id": 54,
+    "filename": "000000000322.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000322.jpg",
+    "multimodal_context": "Image caption: a man throwing a frurd frck in the backyard. Detected objects: one person, 2 frisbees. Object categories: frisbee, person. Object positions: person at middle-left, frisbee at middle-center, frisbee at middle-center."
+  },
+  {
+    "faiss_index": 55,
+    "image_id": 55,
+    "filename": "000000000326.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000326.jpg",
+    "multimodal_context": "Image caption: a man holding a wine glass in his hand. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
+  },
+  {
+    "faiss_index": 56,
+    "image_id": 56,
+    "filename": "000000000328.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000328.jpg",
+    "multimodal_context": "Image caption: three men sitting on a bench. Detected objects: 3 persons, one book. Object categories: book, person. Object positions: person at middle-right, person at middle-center, person at middle-left, book at middle-center."
+  },
+  {
+    "faiss_index": 57,
+    "image_id": 57,
+    "filename": "000000000332.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000332.jpg",
+    "multimodal_context": "Image caption: a bowl of food with rice and vegetables. Detected objects: 2 bowls, 2 carrots, one cup, one dining table. Object categories: bowl, carrot, cup, dining table. Object positions: bowl at top-left, bowl at middle-center, carrot at middle-center, carrot at bottom-left, cup at top-right, dining table at middle-center."
+  },
+  {
+    "faiss_index": 58,
+    "image_id": 58,
+    "filename": "000000000338.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000338.jpg",
+    "multimodal_context": "Image caption: a man standing in a kitchen with a stove. Detected objects: one refrigerator, one clock, 2 persons, 2 ovens. Object categories: clock, oven, person, refrigerator. Object positions: refrigerator at bottom-center, clock at top-right, person at bottom-right, person at bottom-center, oven at bottom-left, oven at bottom-left."
+  },
+  {
+    "faiss_index": 59,
+    "image_id": 59,
+    "filename": "000000000349.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000349.jpg",
+    "multimodal_context": "Image caption: a train is parked at a station. Detected objects: one train, one potted plant. Object categories: potted plant, train. Object positions: train at middle-center, potted plant at middle-right."
+  },
+  {
+    "faiss_index": 60,
+    "image_id": 60,
+    "filename": "000000000357.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000357.jpg",
+    "multimodal_context": "Image caption: a baseball game is being played in a stadium. Detected objects: 7 persons. Object categories: person. Object positions: person at top-center, person at middle-left, person at bottom-right, person at bottom-right, person at bottom-right, person at top-center, person at top-center."
+  },
+  {
+    "faiss_index": 61,
+    "image_id": 61,
+    "filename": "000000000359.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000359.jpg",
+    "multimodal_context": "Image caption: a street with cars and buildings in the background. Detected objects: 3 traffic lights, one car. Object categories: car, traffic light. Object positions: traffic light at middle-center, traffic light at middle-right, traffic light at middle-center, car at bottom-left."
+  },
+  {
+    "faiss_index": 62,
+    "image_id": 62,
+    "filename": "000000000360.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000360.jpg",
+    "multimodal_context": "Image caption: a snowboarder is jumping off a rock. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
+  },
+  {
+    "faiss_index": 63,
+    "image_id": 63,
+    "filename": "000000000368.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000368.jpg",
+    "multimodal_context": "Image caption: a group of kids playing soccer in a field. Detected objects: 6 persons, one sports ball. Object categories: person, sports ball. Object positions: person at middle-center, person at top-center, sports ball at middle-center, person at top-left, person at top-left, person at top-center, person at top-left."
+  },
+  {
+    "faiss_index": 64,
+    "image_id": 64,
+    "filename": "000000000370.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000370.jpg",
+    "multimodal_context": "Image caption: a little girl holding a piece of broccole. Detected objects: one broccoli, one person. Object categories: broccoli, person. Object positions: broccoli at middle-right, person at middle-center."
+  },
+  {
+    "faiss_index": 65,
+    "image_id": 65,
+    "filename": "000000000382.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000382.jpg",
+    "multimodal_context": "Image caption: a skier skiing down a snowy slope. Detected objects: one person. Object categories: person. Object positions: person at bottom-right."
+  },
+  {
+    "faiss_index": 66,
+    "image_id": 66,
+    "filename": "000000000384.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000384.jpg",
+    "multimodal_context": "Image caption: a living room with a couch and a chandel. Detected objects: one clock, 2 couchs, one book. Object categories: book, clock, couch. Object positions: clock at middle-center, couch at bottom-left, book at bottom-left, couch at bottom-left."
+  },
+  {
+    "faiss_index": 67,
+    "image_id": 67,
+    "filename": "000000000387.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000387.jpg",
+    "multimodal_context": "Image caption: a nintendo game console with a game controller. Detected objects: one person. Object categories: person. Object positions: person at top-right."
+  },
+  {
+    "faiss_index": 68,
+    "image_id": 68,
+    "filename": "000000000389.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000389.jpg",
+    "multimodal_context": "Image caption: a man with a beard and a green tie. Detected objects: 7 persons, one tie. Object categories: person, tie. Object positions: person at middle-center, person at bottom-left, person at bottom-right, tie at bottom-center, person at bottom-right, person at bottom-left, person at bottom-right, person at middle-left."
+  },
+  {
+    "faiss_index": 69,
+    "image_id": 69,
+    "filename": "000000000394.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000394.jpg",
+    "multimodal_context": "Image caption: a white dog with a purple fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr. Detected objects: one frisbee, one dog. Object categories: dog, frisbee. Object positions: frisbee at middle-center, dog at middle-center."
+  },
+  {
+    "faiss_index": 70,
+    "image_id": 70,
+    "filename": "000000000395.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000395.jpg",
+    "multimodal_context": "Image caption: a man in a red jacket talking on a cell. Detected objects: 4 persons. Object categories: person. Object positions: person at middle-center, person at middle-left, person at middle-left, person at bottom-right."
+  },
+  {
+    "faiss_index": 71,
+    "image_id": 71,
+    "filename": "000000000397.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000397.jpg",
+    "multimodal_context": "Image caption: a pizza on a metal tray with a woman sitting at the table. Detected objects: one pizza, one person, one chair. Object categories: chair, person, pizza. Object positions: pizza at middle-center, person at top-left, chair at top-right."
+  },
+  {
+    "faiss_index": 72,
+    "image_id": 72,
+    "filename": "000000000400.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000400.jpg",
+    "multimodal_context": "Image caption: a dog is sitting on the back of a boat. Detected objects: one dog, one boat. Object categories: boat, dog. Object positions: dog at top-right, boat at middle-center."
+  },
+  {
+    "faiss_index": 73,
+    "image_id": 73,
+    "filename": "000000000404.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000404.jpg",
+    "multimodal_context": "Image caption: boats in the water at the beach. Detected objects: one boat. Object categories: boat. Object positions: boat at middle-center."
+  },
+  {
+    "faiss_index": 74,
+    "image_id": 74,
+    "filename": "000000000415.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000415.jpg",
+    "multimodal_context": "Image caption: a man playing tennis on a tennis court. Detected objects: one person, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-left, tennis racket at middle-left."
+  },
+  {
+    "faiss_index": 75,
+    "image_id": 75,
+    "filename": "000000000419.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000419.jpg",
+    "multimodal_context": "Image caption: a man in a red shirt playing tennis. Detected objects: 2 persons. Object categories: person. Object positions: person at bottom-right, person at middle-left."
+  },
+  {
+    "faiss_index": 76,
+    "image_id": 76,
+    "filename": "000000000428.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000428.jpg",
+    "multimodal_context": "Image caption: a baby girl is standing in front of a cake. Detected objects: one person, one cake. Object categories: cake, person. Object positions: person at middle-center, cake at bottom-right."
+  },
+  {
+    "faiss_index": 77,
+    "image_id": 77,
+    "filename": "000000000431.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000431.jpg",
+    "multimodal_context": "Image caption: a tennis player hits the ball during a match. Detected objects: one person, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-center, tennis racket at middle-center."
+  },
+  {
+    "faiss_index": 78,
+    "image_id": 78,
+    "filename": "000000000436.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000436.jpg",
+    "multimodal_context": "Image caption: a man sitting in a chair eating a sandwich. Detected objects: one person, one donut, one bottle. Object categories: bottle, donut, person. Object positions: person at middle-center, donut at middle-center, bottle at bottom-center."
+  },
+  {
+    "faiss_index": 79,
+    "image_id": 79,
+    "filename": "000000000438.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000438.jpg",
+    "multimodal_context": "Image caption: a box of doughs. Detected objects: 15 donuts. Object categories: donut. Object positions: donut at bottom-right, donut at middle-right, donut at middle-center, donut at middle-center, donut at middle-center, donut at bottom-center, donut at top-right, donut at middle-center, donut at middle-right, donut at bottom-center, donut at top-left, donut at middle-left, donut at bottom-left, donut at top-left, donut at top-center."
+  },
+  {
+    "faiss_index": 80,
+    "image_id": 80,
+    "filename": "000000000443.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000443.jpg",
+    "multimodal_context": "Image caption: a cat laying on its back on a couch. Detected objects: one remote, one cat, one person. Object categories: cat, person, remote. Object positions: remote at middle-right, cat at middle-center, person at middle-center."
+  },
+  {
+    "faiss_index": 81,
+    "image_id": 81,
+    "filename": "000000000446.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000446.jpg",
+    "multimodal_context": "Image caption: a woman standing in a room with a light on. Detected objects: one person, one couch. Object categories: couch, person. Object positions: person at middle-center, couch at bottom-left."
+  },
+  {
+    "faiss_index": 82,
+    "image_id": 82,
+    "filename": "000000000450.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000450.jpg",
+    "multimodal_context": "Image caption: a pizza on a plate with a fork and knife. Detected objects: one pizza, one wine glass, one cup, one dining table, one bottle. Object categories: bottle, cup, dining table, pizza, wine glass. Object positions: pizza at middle-center, wine glass at top-right, cup at top-right, dining table at middle-center, bottle at top-right."
+  },
+  {
+    "faiss_index": 83,
+    "image_id": 83,
+    "filename": "000000000459.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000459.jpg",
+    "multimodal_context": "Image caption: a man in a suit and tie taking a picture of himself. Detected objects: one person, one tie. Object categories: person, tie. Object positions: person at middle-center, tie at middle-center."
+  },
+  {
+    "faiss_index": 84,
+    "image_id": 84,
+    "filename": "000000000471.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000471.jpg",
+    "multimodal_context": "Image caption: a yellow bus parked in a parking lot. Detected objects: one bus. Object categories: bus. Object positions: bus at middle-center."
+  },
+  {
+    "faiss_index": 85,
+    "image_id": 85,
+    "filename": "000000000472.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000472.jpg",
+    "multimodal_context": "Image caption: a plane flying over a body of water. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at top-right."
+  },
+  {
+    "faiss_index": 86,
+    "image_id": 86,
+    "filename": "000000000474.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000474.jpg",
+    "multimodal_context": "Image caption: a young boy playing with a toy in the grass. Detected objects: one person, one baseball glove. Object categories: baseball glove, person. Object positions: person at middle-center, baseball glove at middle-left."
+  },
+  {
+    "faiss_index": 87,
+    "image_id": 87,
+    "filename": "000000000486.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000486.jpg",
+    "multimodal_context": "Image caption: a kitchen with a wooden counter and a sink. Detected objects: one bowl, one refrigerator. Object categories: bowl, refrigerator. Object positions: bowl at bottom-center, refrigerator at middle-right."
+  },
+  {
+    "faiss_index": 88,
+    "image_id": 88,
+    "filename": "000000000488.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000488.jpg",
+    "multimodal_context": "Image caption: a baseball game is being played on a field. Detected objects: 5 persons, one sports ball, one baseball glove. Object categories: baseball glove, person, sports ball. Object positions: person at bottom-left, person at bottom-center, person at middle-right, person at bottom-left, sports ball at middle-right, baseball glove at bottom-center, person at middle-center."
+  },
+  {
+    "faiss_index": 89,
+    "image_id": 89,
+    "filename": "000000000490.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000490.jpg",
+    "multimodal_context": "Image caption: a dog standing in front of a skateboard. Detected objects: one dog, one skateboard. Object categories: dog, skateboard. Object positions: dog at middle-left, skateboard at middle-right."
+  },
+  {
+    "faiss_index": 90,
+    "image_id": 90,
+    "filename": "000000000491.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000491.jpg",
+    "multimodal_context": "Image caption: a group of stuffed animals sitting on a bicycle. Detected objects: one teddy bear. Object categories: teddy bear. Object positions: teddy bear at middle-center."
+  },
+  {
+    "faiss_index": 91,
+    "image_id": 91,
+    "filename": "000000000502.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000502.jpg",
+    "multimodal_context": "Image caption: a black bear walking on the side of a mountain. Detected objects: one bear. Object categories: bear. Object positions: bear at middle-center."
+  },
+  {
+    "faiss_index": 92,
+    "image_id": 92,
+    "filename": "000000000508.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000508.jpg",
+    "multimodal_context": "Image caption: a view of the mountains from the top of a mountain. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
+  },
+  {
+    "faiss_index": 93,
+    "image_id": 93,
+    "filename": "000000000510.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000510.jpg",
+    "multimodal_context": "Image caption: a man sitting on a bench in front of a fountain. Detected objects: one person, one bench. Object categories: bench, person. Object positions: person at middle-center, bench at middle-center."
+  },
+  {
+    "faiss_index": 94,
+    "image_id": 94,
+    "filename": "000000000514.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000514.jpg",
+    "multimodal_context": "Image caption: the bed in the bedroom. Detected objects: no recognizable objects. Object categories: none. Object positions: no spatial object information."
+  },
+  {
+    "faiss_index": 95,
+    "image_id": 95,
+    "filename": "000000000520.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000520.jpg",
+    "multimodal_context": "Image caption: birds flying over the water at sunset. Detected objects: 7 birds. Object categories: bird. Object positions: bird at top-center, bird at middle-left, bird at top-center, bird at middle-left, bird at middle-right, bird at middle-right, bird at middle-right."
+  },
+  {
+    "faiss_index": 96,
+    "image_id": 96,
+    "filename": "000000000529.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000529.jpg",
+    "multimodal_context": "Image caption: a woman riding a dirt bike on a grassy field. Detected objects: one motorcycle, one person. Object categories: motorcycle, person. Object positions: motorcycle at middle-center, person at middle-center."
+  },
+  {
+    "faiss_index": 97,
+    "image_id": 97,
+    "filename": "000000000531.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000531.jpg",
+    "multimodal_context": "Image caption: a tennis court with people playing tennis on it. Detected objects: 6 persons, one tennis racket. Object categories: person, tennis racket. Object positions: person at middle-center, person at middle-left, person at bottom-left, person at middle-center, person at middle-left, person at middle-right, tennis racket at middle-center."
+  },
+  {
+    "faiss_index": 98,
+    "image_id": 98,
+    "filename": "000000000532.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000532.jpg",
+    "multimodal_context": "Image caption: two buses parked next to each other vehicles. Detected objects: one bus, 2 persons, one truck. Object categories: bus, person, truck. Object positions: bus at middle-center, person at middle-left, person at middle-center, truck at middle-left."
+  },
+  {
+    "faiss_index": 99,
+    "image_id": 99,
+    "filename": "000000000536.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000536.jpg",
+    "multimodal_context": "Image caption: three women in dresses. Detected objects: 3 persons, one handbag. Object categories: handbag, person. Object positions: person at bottom-right, person at middle-center, person at middle-left, handbag at bottom-left."
+  },
+  {
+    "faiss_index": 100,
+    "image_id": 100,
+    "filename": "000000000540.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000540.jpg",
+    "multimodal_context": "Image caption: a plane is seen on the runway. Detected objects: one airplane. Object categories: airplane. Object positions: airplane at middle-center."
+  },
+  {
+    "faiss_index": 101,
+    "image_id": 101,
+    "filename": "000000000542.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000542.jpg",
+    "multimodal_context": "Image caption: a group of men standing around a small plane. Detected objects: 6 persons, one airplane. Object categories: airplane, person. Object positions: person at middle-center, person at middle-right, person at middle-left, person at middle-center, person at middle-center, airplane at top-center, person at middle-left."
+  },
+  {
+    "faiss_index": 102,
+    "image_id": 102,
+    "filename": "000000000544.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000544.jpg",
+    "multimodal_context": "Image caption: a baseball game is being played in a stadium. Detected objects: 7 persons, one baseball glove. Object categories: baseball glove, person. Object positions: person at bottom-left, person at bottom-center, person at bottom-left, baseball glove at bottom-center, person at middle-left, person at middle-center, person at middle-left, person at middle-left."
+  },
+  {
+    "faiss_index": 103,
+    "image_id": 103,
+    "filename": "000000000560.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000560.jpg",
+    "multimodal_context": "Image caption: a bathroom with a tub and a sink. Detected objects: one sink, one potted plant. Object categories: potted plant, sink. Object positions: sink at bottom-left, potted plant at middle-left."
+  },
+  {
+    "faiss_index": 104,
+    "image_id": 104,
+    "filename": "000000000562.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000562.jpg",
+    "multimodal_context": "Image caption: tooths in a glass of water. Detected objects: 2 toothbrushs, one cup. Object categories: cup, toothbrush. Object positions: toothbrush at top-center, toothbrush at middle-center, cup at middle-center."
+  },
+  {
+    "faiss_index": 105,
+    "image_id": 105,
+    "filename": "000000000564.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000564.jpg",
+    "multimodal_context": "Image caption: a man in a yellow shirt and white shorts playing tennis. Detected objects: one person, 21 chairs. Object categories: chair, person. Object positions: person at bottom-center, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-left, chair at middle-right, chair at middle-center, chair at middle-center, chair at middle-right, chair at middle-center, chair at middle-left, chair at middle-right, chair at middle-center, chair at middle-left, chair at middle-center, chair at middle-right, chair at middle-left, chair at middle-left, chair at middle-right, chair at middle-right."
+  },
+  {
+    "faiss_index": 106,
+    "image_id": 106,
+    "filename": "000000000569.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000569.jpg",
+    "multimodal_context": "Image caption: a man in a white coat is flying a kite. Detected objects: one person. Object categories: person. Object positions: person at bottom-left."
+  },
+  {
+    "faiss_index": 107,
+    "image_id": 107,
+    "filename": "000000000572.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000572.jpg",
+    "multimodal_context": "Image caption: a man and woman are standing on the stairs. Detected objects: one suitcase, 2 persons. Object categories: person, suitcase. Object positions: suitcase at bottom-right, person at middle-left, person at middle-center."
+  },
+  {
+    "faiss_index": 108,
+    "image_id": 108,
+    "filename": "000000000575.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000575.jpg",
+    "multimodal_context": "Image caption: a cat playing with a shoe in the grass. Detected objects: one cat. Object categories: cat. Object positions: cat at middle-left."
+  },
+  {
+    "faiss_index": 109,
+    "image_id": 109,
+    "filename": "000000000581.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000581.jpg",
+    "multimodal_context": "Image caption: a small dog is sitting on the floor. Detected objects: one dog. Object categories: dog. Object positions: dog at middle-center."
+  },
+  {
+    "faiss_index": 110,
+    "image_id": 110,
+    "filename": "000000000584.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000584.jpg",
+    "multimodal_context": "Image caption: a bowl of food on a table. Detected objects: 6 carrots, one bowl, one spoon. Object categories: bowl, carrot, spoon. Object positions: carrot at bottom-center, carrot at middle-right, bowl at middle-center, carrot at middle-right, carrot at bottom-right, carrot at middle-left, spoon at top-left, carrot at bottom-right."
+  },
+  {
+    "faiss_index": 111,
+    "image_id": 111,
+    "filename": "000000000589.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000589.jpg",
+    "multimodal_context": "Image caption: a man in a white shirt throwing a ball. Detected objects: one person. Object categories: person. Object positions: person at middle-center."
+  },
+  {
+    "faiss_index": 112,
+    "image_id": 112,
+    "filename": "000000000590.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000590.jpg",
+    "multimodal_context": "Image caption: a bathroom with a sink and mirror. Detected objects: one sink. Object categories: sink. Object positions: sink at middle-left."
+  },
+  {
+    "faiss_index": 113,
+    "image_id": 113,
+    "filename": "000000000595.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000595.jpg",
+    "multimodal_context": "Image caption: a tv in the middle of a river. Detected objects: one tv. Object categories: tv. Object positions: tv at bottom-right."
+  },
+  {
+    "faiss_index": 114,
+    "image_id": 114,
+    "filename": "000000000597.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000597.jpg",
+    "multimodal_context": "Image caption: a herd of elephants walking across a dry grass covered field. Detected objects: 7 elephants. Object categories: elephant. Object positions: elephant at bottom-left, elephant at bottom-left, elephant at bottom-center, elephant at bottom-center, elephant at bottom-center, elephant at bottom-right, elephant at bottom-left."
+  },
+  {
+    "faiss_index": 115,
+    "image_id": 115,
+    "filename": "000000000599.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000599.jpg",
+    "multimodal_context": "Image caption: a cat sitting on a leather chair with a remote control. Detected objects: one cat, 2 remotes, one potted plant, one couch. Object categories: cat, couch, potted plant, remote. Object positions: cat at middle-center, remote at middle-right, remote at middle-right, potted plant at top-right, couch at middle-center."
+  },
+  {
+    "faiss_index": 116,
+    "image_id": 116,
+    "filename": "000000000605.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000605.jpg",
+    "multimodal_context": "Image caption: two cups of coffee and a pastry on a table. Detected objects: one dining table, 2 cups, 2 cakes, one spoon. Object categories: cake, cup, dining table, spoon. Object positions: dining table at middle-center, cup at middle-center, cup at top-right, cake at top-left, spoon at middle-center, cake at middle-left."
+  },
+  {
+    "faiss_index": 117,
+    "image_id": 117,
+    "filename": "000000000612.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000612.jpg",
+    "multimodal_context": "Image caption: a bed with a christmas tree and decorations. Detected objects: 2 teddy bears. Object categories: teddy bear. Object positions: teddy bear at middle-center, teddy bear at middle-center."
+  },
+  {
+    "faiss_index": 118,
+    "image_id": 118,
+    "filename": "000000000620.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000620.jpg",
+    "multimodal_context": "Image caption: a pizza oven with two pizzas inside of it. Detected objects: 2 pizzas. Object categories: pizza. Object positions: pizza at middle-center, pizza at middle-center."
+  },
+  {
+    "faiss_index": 119,
+    "image_id": 119,
+    "filename": "000000000623.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000623.jpg",
+    "multimodal_context": "Image caption: a woman is hugging a teddy bear in a restaurant. Detected objects: one teddy bear, one person. Object categories: person, teddy bear. Object positions: teddy bear at middle-left, person at middle-right."
+  },
+  {
+    "faiss_index": 120,
+    "image_id": 120,
+    "filename": "000000000625.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000625.jpg",
+    "multimodal_context": "Image caption: a group of people playing frc in a field. Detected objects: 3 persons, one frisbee. Object categories: frisbee, person. Object positions: person at bottom-right, person at bottom-center, person at middle-center, frisbee at top-center."
+  },
+  {
+    "faiss_index": 121,
+    "image_id": 121,
+    "filename": "000000000626.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000626.jpg",
+    "multimodal_context": "Image caption: a clock tower in the middle of a city. Detected objects: 2 clocks. Object categories: clock. Object positions: clock at top-center, clock at top-center."
+  },
+  {
+    "faiss_index": 122,
+    "image_id": 122,
+    "filename": "000000000629.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000629.jpg",
+    "multimodal_context": "Image caption: a motorcycle parked in front of a building with a tree painted on it. Detected objects: one motorcycle. Object categories: motorcycle. Object positions: motorcycle at bottom-right."
+  },
+  {
+    "faiss_index": 123,
+    "image_id": 123,
+    "filename": "000000000634.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000634.jpg",
+    "multimodal_context": "Image caption: a skateboarder is riding a ramp at a skate park. Detected objects: 5 persons, one skateboard. Object categories: person, skateboard. Object positions: person at middle-center, person at top-right, person at top-center, skateboard at bottom-center, person at top-left, person at top-center."
+  },
+  {
+    "faiss_index": 124,
+    "image_id": 124,
+    "filename": "000000000636.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000636.jpg",
+    "multimodal_context": "Image caption: a toilet in a bathroom with a hole in the wall. Detected objects: one toilet. Object categories: toilet. Object positions: toilet at middle-center."
+  },
+  {
+    "faiss_index": 125,
+    "image_id": 125,
+    "filename": "000000000641.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000641.jpg",
+    "multimodal_context": "Image caption: a bus is driving down the street in front of a building. Detected objects: one bus. Object categories: bus. Object positions: bus at middle-center."
+  },
+  {
+    "faiss_index": 126,
+    "image_id": 126,
+    "filename": "000000000643.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000643.jpg",
+    "multimodal_context": "Image caption: a computer on a desk. Detected objects: one tv, one bottle, one bowl. Object categories: bottle, bowl, tv. Object positions: tv at bottom-center, bottle at bottom-left, bowl at top-center."
+  },
+  {
+    "faiss_index": 127,
+    "image_id": 127,
+    "filename": "000000000650.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\000000000650.jpg",
+    "multimodal_context": "Image caption: a cat sitting on the hood of a car. Detected objects: one cat, one car. Object categories: car, cat. Object positions: cat at middle-center, car at bottom-center."
+  },
+  {
+    "faiss_index": 131,
+    "image_id": "cv",
+    "filename": "cv.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\cv.jpg",
+    "caption": "a young man in a suit and tie",
+    "multimodal_context": "Image caption: a young man in a suit and tie. Detected objects: one tie, one person. Object categories: person, tie. Object positions: tie at bottom-center, person at middle-center.",
+    "objects": [
+      {
+        "class": "tie",
+        "class_id": 27,
+        "confidence": 0.919,
+        "bbox": [
+          266.64,
+          604.71,
+          352.57,
+          774.53
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.9165,
+        "bbox": [
+          0.0,
+          37.26,
+          608.74,
+          772.11
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 132,
+    "image_id": "sajith",
+    "filename": "sajith.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\sajith.jpg",
+    "caption": "a man standing in front of a building",
+    "multimodal_context": "Image caption: a man standing in front of a building. Detected objects: 4 persons. Object categories: person. Object positions: person at middle-left, person at middle-right, person at middle-right, person at middle-right.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.9411,
+        "bbox": [
+          0.87,
+          361.69,
+          581.35,
+          1277.86
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5899,
+        "bbox": [
+          821.75,
+          588.04,
+          863.16,
+          701.38
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5338,
+        "bbox": [
+          863.74,
+          576.24,
+          918.61,
+          749.0
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4004,
+        "bbox": [
+          931.58,
+          588.25,
+          959.85,
+          761.28
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 133,
+    "image_id": "WhatsApp Image 2024-08-18 at 11.38.10_af2f7c78",
+    "filename": "WhatsApp Image 2024-08-18 at 11.38.10_af2f7c78.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\WhatsApp Image 2024-08-18 at 11.38.10_af2f7c78.jpg",
+    "caption": "a group of people sitting in a room",
+    "multimodal_context": "Image caption: a group of people sitting in a room. Detected objects: 10 persons. Object categories: person. Object positions: person at bottom-center, person at middle-center, person at bottom-center, person at bottom-right, person at middle-left, person at middle-center, person at middle-left, person at middle-center, person at bottom-left, person at middle-left.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8473,
+        "bbox": [
+          516.58,
+          421.8,
+          884.14,
+          912.08
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8324,
+        "bbox": [
+          342.45,
+          370.02,
+          595.78,
+          714.81
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8138,
+        "bbox": [
+          680.42,
+          497.71,
+          977.49,
+          959.81
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7327,
+        "bbox": [
+          808.36,
+          515.54,
+          1174.77,
+          959.32
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7146,
+        "bbox": [
+          274.65,
+          375.85,
+          500.45,
+          617.34
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6802,
+        "bbox": [
+          481.44,
+          375.55,
+          693.15,
+          749.38
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5613,
+        "bbox": [
+          270.05,
+          377.22,
+          417.88,
+          602.26
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5534,
+        "bbox": [
+          438.27,
+          369.92,
+          595.69,
+          731.85
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5205,
+        "bbox": [
+          0.23,
+          588.33,
+          188.08,
+          829.89
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5058,
+        "bbox": [
+          249.88,
+          372.02,
+          331.86,
+          512.75
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 132,
+    "image_id": "IMG-20240325-WA0027",
+    "filename": "IMG-20240325-WA0027.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\IMG-20240325-WA0027.jpg",
+    "caption": "a statue of a man on a horse",
+    "multimodal_context": "Image caption: a statue of a man on a horse. Detected objects: 3 persons, one horse. Object categories: horse, person. Object positions: person at bottom-center, person at bottom-left, horse at middle-center, person at bottom-center.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7911,
+        "bbox": [
+          287.85,
+          1075.71,
+          390.97,
+          1279.6
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.546,
+        "bbox": [
+          82.55,
+          1100.66,
+          205.6,
+          1276.65
+        ]
+      },
+      {
+        "class": "horse",
+        "class_id": 17,
+        "confidence": 0.536,
+        "bbox": [
+          385.89,
+          510.92,
+          582.97,
+          679.09
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4557,
+        "bbox": [
+          406.74,
+          1057.45,
+          450.44,
+          1201.48
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 133,
+    "image_id": "IMG-20240325-WA0013",
+    "filename": "IMG-20240325-WA0013.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\IMG-20240325-WA0013.jpg",
+    "caption": "a crowd of people walking down a street",
+    "multimodal_context": "Image caption: a crowd of people walking down a street. Detected objects: 9 persons. Object categories: person. Object positions: person at bottom-left, person at bottom-center, person at bottom-left, person at bottom-right, person at bottom-right, person at bottom-right, person at bottom-right, person at bottom-center, person at bottom-right.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8765,
+        "bbox": [
+          141.98,
+          849.37,
+          293.22,
+          1279.45
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6632,
+        "bbox": [
+          458.97,
+          956.59,
+          525.91,
+          1121.83
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6252,
+        "bbox": [
+          59.49,
+          974.78,
+          142.46,
+          1145.63
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5718,
+        "bbox": [
+          692.19,
+          1009.17,
+          778.45,
+          1127.58
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5213,
+        "bbox": [
+          711.52,
+          906.02,
+          779.31,
+          1046.03
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5207,
+        "bbox": [
+          890.34,
+          884.99,
+          958.07,
+          1083.83
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4879,
+        "bbox": [
+          609.77,
+          905.02,
+          681.4,
+          1140.02
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4625,
+        "bbox": [
+          288.09,
+          1000.16,
+          357.37,
+          1132.02
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.458,
+        "bbox": [
+          772.2,
+          1003.16,
+          837.18,
+          1119.61
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 134,
+    "image_id": "IMG-20240325-WA0009",
+    "filename": "IMG-20240325-WA0009.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\IMG-20240325-WA0009.jpg",
+    "caption": "a group of people standing in front of a crowd",
+    "multimodal_context": "Image caption: a group of people standing in front of a crowd. Detected objects: 9 persons. Object categories: person. Object positions: person at bottom-center, person at middle-right, person at bottom-center, person at bottom-left, person at middle-left, person at middle-left, person at bottom-right, person at bottom-left, person at bottom-center.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.9088,
+        "bbox": [
+          476.39,
+          459.51,
+          741.38,
+          863.28
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8939,
+        "bbox": [
+          793.54,
+          6.54,
+          1151.35,
+          862.89
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8749,
+        "bbox": [
+          307.92,
+          457.6,
+          569.47,
+          862.44
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8585,
+        "bbox": [
+          88.86,
+          450.74,
+          400.89,
+          863.23
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.8283,
+        "bbox": [
+          74.53,
+          336.13,
+          284.1,
+          708.04
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7136,
+        "bbox": [
+          18.69,
+          362.84,
+          124.82,
+          502.67
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6973,
+        "bbox": [
+          713.39,
+          455.5,
+          887.25,
+          862.78
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5293,
+        "bbox": [
+          6.79,
+          467.13,
+          114.28,
+          739.54
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4063,
+        "bbox": [
+          355.86,
+          519.37,
+          449.86,
+          633.45
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 135,
+    "image_id": "IMG-20240325-WA0024",
+    "filename": "IMG-20240325-WA0024.jpg",
+    "filepath": "E:\\visonRag\\data\\raw\\IMG-20240325-WA0024.jpg",
+    "caption": "a man riding a bike on a street",
+    "multimodal_context": "Image caption: a man riding a bike on a street. Detected objects: one person, one bicycle. Object categories: bicycle, person. Object positions: person at bottom-left, bicycle at bottom-left.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7549,
+        "bbox": [
+          83.64,
+          857.65,
+          214.15,
+          1233.26
+        ]
+      },
+      {
+        "class": "bicycle",
+        "class_id": 1,
+        "confidence": 0.4008,
+        "bbox": [
+          69.4,
+          1008.99,
+          191.47,
+          1240.82
+        ]
+      }
+    ]
+  },
+  {
+    "faiss_index": 136,
+    "image_id": "WhatsApp Image 2025-11-16 at 7.58.05 AM (1)",
+    "filename": "WhatsApp Image 2025-11-16 at 7.58.05 AM (1).jpeg",
+    "filepath": "E:\\visonRag\\data\\raw\\WhatsApp Image 2025-11-16 at 7.58.05 AM (1).jpeg",
+    "caption": "a person holding a book with a picture of a group of people",
+    "multimodal_context": "Image caption: a person holding a book with a picture of a group of people. Detected objects: 17 persons, one skateboard. Object categories: person, skateboard. Object positions: person at bottom-right, person at bottom-right, person at bottom-center, person at bottom-right, person at middle-right, person at bottom-center, person at bottom-center, person at bottom-right, person at middle-center, person at bottom-center, person at bottom-center, person at bottom-right, person at middle-left, person at bottom-left, person at middle-right, person at middle-right, skateboard at middle-center, person at middle-right.",
+    "objects": [
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.9187,
+        "bbox": [
+          856.69,
+          933.85,
+          1321.58,
+          1431.66
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.839,
+        "bbox": [
+          1224.66,
+          1343.28,
+          1374.9,
+          1516.53
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7817,
+        "bbox": [
+          882.06,
+          1042.41,
+          1041.75,
+          1383.65
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7734,
+        "bbox": [
+          1135.79,
+          1360.38,
+          1234.26,
+          1505.31
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7636,
+        "bbox": [
+          1276.39,
+          481.37,
+          1358.67,
+          680.58
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7485,
+        "bbox": [
+          594.79,
+          1091.51,
+          721.32,
+          1328.48
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7153,
+        "bbox": [
+          649.62,
+          1043.31,
+          842.01,
+          1346.32
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.7098,
+        "bbox": [
+          1370.94,
+          1361.78,
+          1468.41,
+          1518.22
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6844,
+        "bbox": [
+          475.9,
+          485.12,
+          629.55,
+          684.38
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6827,
+        "bbox": [
+          811.74,
+          1168.98,
+          902.31,
+          1364.73
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6743,
+        "bbox": [
+          535.07,
+          1121.19,
+          598.01,
+          1286.21
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.6479,
+        "bbox": [
+          1061.89,
+          732.25,
+          1480.92,
+          1486.09
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5816,
+        "bbox": [
+          1.47,
+          399.17,
+          395.25,
+          1586.85
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5485,
+        "bbox": [
+          470.48,
+          1136.63,
+          512.56,
+          1251.58
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.5131,
+        "bbox": [
+          1387.6,
+          484.01,
+          1457.04,
+          672.55
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4993,
+        "bbox": [
+          1339.89,
+          530.09,
+          1404.54,
+          679.5
+        ]
+      },
+      {
+        "class": "skateboard",
+        "class_id": 36,
+        "confidence": 0.4917,
+        "bbox": [
+          416.47,
+          638.79,
+          688.54,
+          711.95
+        ]
+      },
+      {
+        "class": "person",
+        "class_id": 0,
+        "confidence": 0.4504,
+        "bbox": [
+          1159.56,
+          663.15,
+          1228.54,
+          755.11
+        ]
+      }
+    ]
+  }
 ]

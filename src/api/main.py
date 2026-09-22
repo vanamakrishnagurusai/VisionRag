@@ -1,14 +1,19 @@
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import (
+    FastAPI,
+    HTTPException,
+    UploadFile,
+    File
+)
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from src.retrieval.search import ImageSearcher
 from src.rag.generator import RAGGenerator
-
-
+from src.vision.process_single_image import process_single_image
+from src.retrieval.index_single_image import index_single_image
 # --------------------------------------------------
 # Project paths
 # --------------------------------------------------
@@ -169,6 +174,77 @@ def search_images(request: SearchRequest):
             detail=f"Search failed: {str(e)}"
         )
 
+
+
+# --------------------------------------------------
+# Upload image
+# --------------------------------------------------
+
+@app.post("/upload")
+async def upload_image(file: UploadFile = File(...)):
+    global searcher
+    allowed_extensions = {".jpg", ".jpeg", ".png", ".webp"}
+
+    if not file.filename:
+        raise HTTPException(
+            status_code=400,
+            detail="No filename provided."
+        )
+
+    original_name = Path(file.filename).name
+    extension = Path(original_name).suffix.lower()
+
+    if extension not in allowed_extensions:
+        raise HTTPException(
+            status_code=400,
+            detail="Unsupported image format. Use JPG, JPEG, PNG or WEBP."
+        )
+
+    RAW_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+
+    image_path = RAW_IMAGE_DIR / original_name
+
+    try:
+        contents = await file.read()
+
+        with open(image_path, "wb") as output_file:
+            output_file.write(contents)
+
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to save image: {error}"
+        )
+
+    try:
+        result = process_single_image(image_path)
+
+        print("=== STARTING DYNAMIC INDEXING ===")
+
+        index_single_image()
+
+        print("=== DYNAMIC INDEXING FINISHED ===")
+
+        searcher = ImageSearcher()
+
+        print(
+            f"Reloaded searcher with {searcher.store.index.ntotal} vectors."
+        )
+
+    except Exception as error:
+
+        if image_path.exists():
+            image_path.unlink()
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"Image processing or indexing failed: {error}"
+        )
+
+    return {
+        "message": "Image uploaded, processed and indexed successfully.",
+        "image": result
+    }
 
 # --------------------------------------------------
 # Serve images

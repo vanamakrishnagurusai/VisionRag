@@ -2,7 +2,7 @@ import { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import ResultGrid from "./components/ResultGrid";
 import { API_BASE_URL } from "./config";
-
+import ImageUpload from "./components/ImageUpload";
 function App() {
   const [query, setQuery] = useState("");
   const [answer, setAnswer] = useState("");
@@ -112,7 +112,7 @@ function App() {
           </p>
 
         </section>
-
+        <ImageUpload />
 
         {/* Search */}
         <section className="mx-auto mt-10 max-w-3xl">

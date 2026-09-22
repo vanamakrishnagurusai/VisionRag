@@ -68,3 +68,5 @@ class FAISSStore:
         store.index = index
 
         return store
+    def add_embedding(self, embedding):
+        self.add(embedding)
