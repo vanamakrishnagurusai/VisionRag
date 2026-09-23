@@ -3,6 +3,7 @@ import SearchBar from "./components/SearchBar";
 import ResultGrid from "./components/ResultGrid";
 import { API_BASE_URL } from "./config";
 import ImageUpload from "./components/ImageUpload";
+import EvaluationDashboard from "./components/EvaluationDashboard";
 function App() {
   const [query, setQuery] = useState("");
   const [answer, setAnswer] = useState("");
@@ -292,7 +293,7 @@ function App() {
           )}
 
       </main>
-
+      <EvaluationDashboard />
 
       {/* Footer */}
       <footer className="border-t border-slate-200 bg-white py-6">
@@ -308,3 +309,4 @@ function App() {
 }
 
 export default App;
+

@@ -1,0 +1,341 @@
+[
+  {
+    "query": "images containing a person",
+    "relevant_images": [
+      "000000000036.jpg",
+      "000000000049.jpg",
+      "000000000061.jpg",
+      "000000000074.jpg",
+      "000000000077.jpg",
+      "000000000086.jpg",
+      "000000000109.jpg",
+      "000000000110.jpg",
+      "000000000113.jpg",
+      "000000000136.jpg",
+      "000000000165.jpg",
+      "000000000192.jpg",
+      "000000000201.jpg",
+      "000000000241.jpg",
+      "000000000257.jpg",
+      "000000000260.jpg",
+      "000000000294.jpg",
+      "000000000308.jpg",
+      "000000000315.jpg",
+      "000000000322.jpg",
+      "000000000326.jpg",
+      "000000000328.jpg",
+      "000000000338.jpg",
+      "000000000357.jpg",
+      "000000000360.jpg",
+      "000000000368.jpg",
+      "000000000370.jpg",
+      "000000000382.jpg",
+      "000000000387.jpg",
+      "000000000389.jpg",
+      "000000000395.jpg",
+      "000000000397.jpg",
+      "000000000415.jpg",
+      "000000000419.jpg",
+      "000000000428.jpg",
+      "000000000431.jpg",
+      "000000000436.jpg",
+      "000000000443.jpg",
+      "000000000446.jpg",
+      "000000000459.jpg",
+      "000000000474.jpg",
+      "000000000488.jpg",
+      "000000000510.jpg",
+      "000000000529.jpg",
+      "000000000531.jpg",
+      "000000000532.jpg",
+      "000000000536.jpg",
+      "000000000542.jpg",
+      "000000000544.jpg",
+      "000000000564.jpg",
+      "000000000569.jpg",
+      "000000000572.jpg",
+      "000000000589.jpg",
+      "000000000623.jpg",
+      "000000000625.jpg",
+      "000000000634.jpg",
+      "IMG-20240325-WA0009.jpg",
+      "IMG-20240325-WA0013.jpg",
+      "IMG-20240325-WA0024.jpg",
+      "IMG-20240325-WA0027.jpg",
+      "WhatsApp Image 2024-08-18 at 11.38.10_af2f7c78.jpg",
+      "WhatsApp Image 2025-11-16 at 7.58.05 AM (1).jpeg",
+      "cv.jpg",
+      "sajith.jpg"
+    ]
+  },
+  {
+    "query": "images containing a chair",
+    "relevant_images": [
+      "000000000113.jpg",
+      "000000000164.jpg",
+      "000000000283.jpg",
+      "000000000315.jpg",
+      "000000000397.jpg",
+      "000000000564.jpg"
+    ]
+  },
+  {
+    "query": "images containing a bowl",
+    "relevant_images": [
+      "000000000009.jpg",
+      "000000000113.jpg",
+      "000000000138.jpg",
+      "000000000196.jpg",
+      "000000000332.jpg",
+      "000000000486.jpg",
+      "000000000584.jpg",
+      "000000000643.jpg"
+    ]
+  },
+  {
+    "query": "images containing a elephant",
+    "relevant_images": [
+      "000000000061.jpg",
+      "000000000263.jpg",
+      "000000000312.jpg",
+      "000000000597.jpg"
+    ]
+  },
+  {
+    "query": "images containing a donut",
+    "relevant_images": [
+      "000000000436.jpg",
+      "000000000438.jpg"
+    ]
+  },
+  {
+    "query": "images containing a bird",
+    "relevant_images": [
+      "000000000143.jpg",
+      "000000000520.jpg"
+    ]
+  },
+  {
+    "query": "images containing a carrot",
+    "relevant_images": [
+      "000000000196.jpg",
+      "000000000332.jpg",
+      "000000000584.jpg"
+    ]
+  },
+  {
+    "query": "images containing a giraffe",
+    "relevant_images": [
+      "000000000025.jpg",
+      "000000000072.jpg",
+      "000000000136.jpg",
+      "000000000144.jpg"
+    ]
+  },
+  {
+    "query": "images containing a car",
+    "relevant_images": [
+      "000000000064.jpg",
+      "000000000071.jpg",
+      "000000000094.jpg",
+      "000000000247.jpg",
+      "000000000260.jpg",
+      "000000000307.jpg",
+      "000000000359.jpg",
+      "000000000650.jpg"
+    ]
+  },
+  {
+    "query": "images containing a cup",
+    "relevant_images": [
+      "000000000113.jpg",
+      "000000000127.jpg",
+      "000000000241.jpg",
+      "000000000332.jpg",
+      "000000000450.jpg",
+      "000000000562.jpg",
+      "000000000605.jpg"
+    ]
+  },
+  {
+    "query": "images containing a bottle",
+    "relevant_images": [
+      "000000000142.jpg",
+      "000000000164.jpg",
+      "000000000241.jpg",
+      "000000000283.jpg",
+      "000000000436.jpg",
+      "000000000450.jpg",
+      "000000000643.jpg"
+    ]
+  },
+  {
+    "query": "images containing a dog",
+    "relevant_images": [
+      "000000000042.jpg",
+      "000000000074.jpg",
+      "000000000307.jpg",
+      "000000000394.jpg",
+      "000000000400.jpg",
+      "000000000490.jpg",
+      "000000000581.jpg"
+    ]
+  },
+  {
+    "query": "images containing a clock",
+    "relevant_images": [
+      "000000000064.jpg",
+      "000000000078.jpg",
+      "000000000138.jpg",
+      "000000000338.jpg",
+      "000000000384.jpg",
+      "000000000626.jpg"
+    ]
+  },
+  {
+    "query": "images containing a dining table",
+    "relevant_images": [
+      "000000000113.jpg",
+      "000000000127.jpg",
+      "000000000196.jpg",
+      "000000000308.jpg",
+      "000000000332.jpg",
+      "000000000450.jpg",
+      "000000000605.jpg"
+    ]
+  },
+  {
+    "query": "images containing a pizza",
+    "relevant_images": [
+      "000000000110.jpg",
+      "000000000194.jpg",
+      "000000000397.jpg",
+      "000000000450.jpg",
+      "000000000620.jpg"
+    ]
+  },
+  {
+    "query": "images containing a teddy bear",
+    "relevant_images": [
+      "000000000309.jpg",
+      "000000000491.jpg",
+      "000000000612.jpg",
+      "000000000623.jpg"
+    ]
+  },
+  {
+    "query": "images containing a umbrella",
+    "relevant_images": [
+      "000000000036.jpg",
+      "000000000315.jpg"
+    ]
+  },
+  {
+    "query": "images containing a motorcycle",
+    "relevant_images": [
+      "000000000073.jpg",
+      "000000000257.jpg",
+      "000000000529.jpg",
+      "000000000629.jpg"
+    ]
+  },
+  {
+    "query": "images containing a airplane",
+    "relevant_images": [
+      "000000000081.jpg",
+      "000000000247.jpg",
+      "000000000472.jpg",
+      "000000000540.jpg",
+      "000000000542.jpg"
+    ]
+  },
+  {
+    "query": "images containing a cake",
+    "relevant_images": [
+      "000000000092.jpg",
+      "000000000113.jpg",
+      "000000000428.jpg",
+      "000000000605.jpg"
+    ]
+  },
+  {
+    "query": "images containing a couch",
+    "relevant_images": [
+      "000000000241.jpg",
+      "000000000384.jpg",
+      "000000000446.jpg",
+      "000000000599.jpg"
+    ]
+  },
+  {
+    "query": "images containing a frisbee",
+    "relevant_images": [
+      "000000000307.jpg",
+      "000000000322.jpg",
+      "000000000394.jpg",
+      "000000000625.jpg"
+    ]
+  },
+  {
+    "query": "images containing a zebra",
+    "relevant_images": [
+      "000000000034.jpg",
+      "000000000154.jpg"
+    ]
+  },
+  {
+    "query": "images containing a bus",
+    "relevant_images": [
+      "000000000260.jpg",
+      "000000000471.jpg",
+      "000000000532.jpg",
+      "000000000641.jpg"
+    ]
+  },
+  {
+    "query": "images containing a cat",
+    "relevant_images": [
+      "000000000443.jpg",
+      "000000000575.jpg",
+      "000000000599.jpg",
+      "000000000650.jpg"
+    ]
+  },
+  {
+    "query": "images containing a truck",
+    "relevant_images": [
+      "000000000247.jpg",
+      "000000000257.jpg",
+      "000000000532.jpg"
+    ]
+  },
+  {
+    "query": "images containing a bicycle",
+    "relevant_images": [
+      "000000000074.jpg",
+      "000000000086.jpg",
+      "IMG-20240325-WA0024.jpg"
+    ]
+  },
+  {
+    "query": "images containing a book",
+    "relevant_images": [
+      "000000000127.jpg",
+      "000000000328.jpg",
+      "000000000384.jpg"
+    ]
+  },
+  {
+    "query": "images containing a suitcase",
+    "relevant_images": [
+      "000000000260.jpg",
+      "000000000572.jpg"
+    ]
+  },
+  {
+    "query": "images containing a hot dog",
+    "relevant_images": [
+      "000000000321.jpg"
+    ]
+  }
+]

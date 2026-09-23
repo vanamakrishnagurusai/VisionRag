@@ -1,0 +1,492 @@
+{
+  "overall": {
+    "queries": 30,
+    "precision_at_1": 0.9,
+    "precision_at_3": 0.8444444444444444,
+    "precision_at_5": 0.68,
+    "recall_at_5": 0.8176835317460317,
+    "average_similarity": 0.5128666666666667
+  },
+  "queries": [
+    {
+      "query": "images containing a person",
+      "relevant_count": 64,
+      "retrieved": [
+        "000000000459.jpg",
+        "sajith.jpg",
+        "000000000389.jpg",
+        "IMG-20240325-WA0027.jpg",
+        "000000000395.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "recall_at_5": 0.078125,
+      "average_similarity": 0.533
+    },
+    {
+      "query": "images containing a chair",
+      "relevant_count": 6,
+      "retrieved": [
+        "000000000133.jpg",
+        "000000000164.jpg",
+        "000000000599.jpg",
+        "000000000283.jpg",
+        "000000000397.jpg"
+      ],
+      "precision_at_1": 0.0,
+      "precision_at_3": 0.3333333333333333,
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.5,
+      "average_similarity": 0.4734
+    },
+    {
+      "query": "images containing a bowl",
+      "relevant_count": 8,
+      "retrieved": [
+        "000000000332.jpg",
+        "000000000009.jpg",
+        "000000000486.jpg",
+        "000000000584.jpg",
+        "000000000196.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "recall_at_5": 0.625,
+      "average_similarity": 0.52066
+    },
+    {
+      "query": "images containing a elephant",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000263.jpg",
+        "000000000597.jpg",
+        "000000000061.jpg",
+        "000000000312.jpg",
+        "000000000025.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.58668
+    },
+    {
+      "query": "images containing a donut",
+      "relevant_count": 2,
+      "retrieved": [
+        "000000000438.jpg",
+        "000000000436.jpg",
+        "000000000092.jpg",
+        "000000000042.jpg",
+        "000000000194.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.40288
+    },
+    {
+      "query": "images containing a bird",
+      "relevant_count": 2,
+      "retrieved": [
+        "000000000143.jpg",
+        "000000000520.jpg",
+        "000000000309.jpg",
+        "000000000575.jpg",
+        "000000000072.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.45346000000000003
+    },
+    {
+      "query": "images containing a carrot",
+      "relevant_count": 3,
+      "retrieved": [
+        "000000000584.jpg",
+        "000000000332.jpg",
+        "000000000196.jpg",
+        "000000000194.jpg",
+        "000000000092.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.6,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.48702000000000006
+    },
+    {
+      "query": "images containing a giraffe",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000072.jpg",
+        "000000000144.jpg",
+        "000000000025.jpg",
+        "000000000136.jpg",
+        "000000000597.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.6281
+    },
+    {
+      "query": "images containing a car",
+      "relevant_count": 8,
+      "retrieved": [
+        "000000000094.jpg",
+        "000000000650.jpg",
+        "000000000359.jpg",
+        "000000000629.jpg",
+        "000000000073.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.375,
+      "average_similarity": 0.56034
+    },
+    {
+      "query": "images containing a cup",
+      "relevant_count": 7,
+      "retrieved": [
+        "000000000127.jpg",
+        "000000000605.jpg",
+        "000000000562.jpg",
+        "000000000142.jpg",
+        "000000000450.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 0.5714285714285714,
+      "average_similarity": 0.48908000000000007
+    },
+    {
+      "query": "images containing a bottle",
+      "relevant_count": 7,
+      "retrieved": [
+        "000000000283.jpg",
+        "000000000142.jpg",
+        "000000000643.jpg",
+        "000000000326.jpg",
+        "000000000241.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 0.5714285714285714,
+      "average_similarity": 0.45603999999999995
+    },
+    {
+      "query": "images containing a dog",
+      "relevant_count": 7,
+      "retrieved": [
+        "000000000581.jpg",
+        "000000000394.jpg",
+        "000000000042.jpg",
+        "000000000309.jpg",
+        "000000000307.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 0.5714285714285714,
+      "average_similarity": 0.58154
+    },
+    {
+      "query": "images containing a clock",
+      "relevant_count": 6,
+      "retrieved": [
+        "000000000078.jpg",
+        "000000000626.jpg",
+        "000000000064.jpg",
+        "000000000384.jpg",
+        "000000000338.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "recall_at_5": 0.8333333333333334,
+      "average_similarity": 0.49779999999999996
+    },
+    {
+      "query": "images containing a dining table",
+      "relevant_count": 7,
+      "retrieved": [
+        "000000000196.jpg",
+        "000000000332.jpg",
+        "000000000127.jpg",
+        "000000000605.jpg",
+        "000000000164.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 0.5714285714285714,
+      "average_similarity": 0.54714
+    },
+    {
+      "query": "images containing a pizza",
+      "relevant_count": 5,
+      "retrieved": [
+        "000000000194.jpg",
+        "000000000620.jpg",
+        "000000000110.jpg",
+        "000000000450.jpg",
+        "000000000397.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.60928
+    },
+    {
+      "query": "images containing a teddy bear",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000612.jpg",
+        "000000000491.jpg",
+        "000000000309.jpg",
+        "000000000623.jpg",
+        "000000000502.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.5428
+    },
+    {
+      "query": "images containing a umbrella",
+      "relevant_count": 2,
+      "retrieved": [
+        "000000000036.jpg",
+        "000000000315.jpg",
+        "000000000149.jpg",
+        "000000000520.jpg",
+        "000000000508.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.43366
+    },
+    {
+      "query": "images containing a motorcycle",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000629.jpg",
+        "000000000073.jpg",
+        "000000000086.jpg",
+        "000000000529.jpg",
+        "000000000094.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.75,
+      "average_similarity": 0.5547
+    },
+    {
+      "query": "images containing a airplane",
+      "relevant_count": 5,
+      "retrieved": [
+        "000000000081.jpg",
+        "000000000540.jpg",
+        "000000000472.jpg",
+        "000000000247.jpg",
+        "000000000542.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.5683199999999999
+    },
+    {
+      "query": "images containing a cake",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000092.jpg",
+        "000000000428.jpg",
+        "000000000113.jpg",
+        "000000000605.jpg",
+        "000000000127.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.45384
+    },
+    {
+      "query": "images containing a couch",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000443.jpg",
+        "000000000446.jpg",
+        "000000000599.jpg",
+        "000000000384.jpg",
+        "000000000133.jpg"
+      ],
+      "precision_at_1": 0.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.75,
+      "average_similarity": 0.52444
+    },
+    {
+      "query": "images containing a frisbee",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000322.jpg",
+        "000000000625.jpg",
+        "000000000307.jpg",
+        "000000000394.jpg",
+        "000000000149.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.5245599999999999
+    },
+    {
+      "query": "images containing a zebra",
+      "relevant_count": 2,
+      "retrieved": [
+        "000000000154.jpg",
+        "000000000034.jpg",
+        "000000000072.jpg",
+        "000000000144.jpg",
+        "000000000136.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.54318
+    },
+    {
+      "query": "images containing a bus",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000641.jpg",
+        "000000000532.jpg",
+        "000000000471.jpg",
+        "000000000260.jpg",
+        "000000000359.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.59984
+    },
+    {
+      "query": "images containing a cat",
+      "relevant_count": 4,
+      "retrieved": [
+        "000000000443.jpg",
+        "000000000575.jpg",
+        "000000000650.jpg",
+        "000000000072.jpg",
+        "000000000599.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 1.0,
+      "precision_at_5": 0.8,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.49664
+    },
+    {
+      "query": "images containing a truck",
+      "relevant_count": 3,
+      "retrieved": [
+        "000000000532.jpg",
+        "000000000247.jpg",
+        "000000000094.jpg",
+        "000000000257.jpg",
+        "000000000071.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.6,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.48713999999999996
+    },
+    {
+      "query": "images containing a bicycle",
+      "relevant_count": 3,
+      "retrieved": [
+        "000000000086.jpg",
+        "IMG-20240325-WA0024.jpg",
+        "000000000491.jpg",
+        "000000000629.jpg",
+        "000000000073.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 0.6666666666666666,
+      "average_similarity": 0.5341199999999999
+    },
+    {
+      "query": "images containing a book",
+      "relevant_count": 3,
+      "retrieved": [
+        "WhatsApp Image 2025-11-16 at 7.58.05 AM (1).jpeg",
+        "000000000127.jpg",
+        "000000000384.jpg",
+        "000000000508.jpg",
+        "000000000133.jpg"
+      ],
+      "precision_at_1": 0.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 0.6666666666666666,
+      "average_similarity": 0.329
+    },
+    {
+      "query": "images containing a suitcase",
+      "relevant_count": 2,
+      "retrieved": [
+        "000000000572.jpg",
+        "000000000260.jpg",
+        "000000000459.jpg",
+        "000000000536.jpg",
+        "000000000247.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.6666666666666666,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.42284000000000005
+    },
+    {
+      "query": "images containing a hot dog",
+      "relevant_count": 1,
+      "retrieved": [
+        "000000000321.jpg",
+        "000000000581.jpg",
+        "000000000042.jpg",
+        "000000000394.jpg",
+        "000000000309.jpg"
+      ],
+      "precision_at_1": 1.0,
+      "precision_at_3": 0.3333333333333333,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "average_similarity": 0.5445
+    }
+  ]
+}

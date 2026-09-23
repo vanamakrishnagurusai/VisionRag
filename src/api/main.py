@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import json
 from fastapi import (
     FastAPI,
     HTTPException,
@@ -20,7 +20,12 @@ from src.retrieval.index_single_image import index_single_image
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_IMAGE_DIR = PROJECT_ROOT / "data" / "raw"
-
+EVALUATION_RESULTS_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "evaluation"
+    / "results.json"
+)
 
 # --------------------------------------------------
 # FastAPI application
@@ -264,3 +269,25 @@ def get_image(filename: str):
     return FileResponse(
         image_path
     )
+
+@app.get("/evaluation")
+def get_evaluation():
+    if not EVALUATION_RESULTS_PATH.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="Evaluation results not found."
+        )
+
+    try:
+        with open(
+            EVALUATION_RESULTS_PATH,
+            "r",
+            encoding="utf-8"
+        ) as file:
+            return json.load(file)
+
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to load evaluation results: {error}"
+        )
