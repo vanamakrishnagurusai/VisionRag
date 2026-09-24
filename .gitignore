@@ -1,57 +1,59 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
-.env
-.venv
-env/
+# Virtual environment
 venv/
-ENV/
-env.bak/
-venv.bak/
+.venv/
+env/
 
-# Data & Models
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/metadata/*
-!data/metadata/.gitkeep
-models/*
-!models/.gitkeep
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Jupyter
+.ipynb_checkpoints/
 
-# IDE / Editor files
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+logs/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Model cache
+.cache/
+huggingface/
+transformers_cache/
+
+# FAISS generated index
+data/faiss/*.faiss
+
+# Dataset images
+data/raw/
+data/processed/
+
+# Model weights
+*.pt
+*.pth
+
+# Temporary files
+*.tmp
+*.temp
